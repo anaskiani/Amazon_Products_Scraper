@@ -34,7 +34,7 @@ CSV_HEADERS: list[str] = [
 ]
 
 
-def export_to_csv(products: list[Product], filepath: str) -> None:
+def export_to_csv(products: list[Product], filepath: str, resume: bool = False) -> None:
     """Export product data to a CSV file.
 
     Creates the output directory if it doesn't exist. Uses UTF-8
@@ -54,9 +54,12 @@ def export_to_csv(products: list[Product], filepath: str) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     try:
+        file_exists = output_path.exists()
+        mode = "a" if resume and file_exists else "w"
+        
         with open(
             output_path,
-            mode="w",
+            mode=mode,
             newline="",
             encoding="utf-8-sig",  # UTF-8 with BOM for Excel
         ) as csv_file:
@@ -66,8 +69,9 @@ def export_to_csv(products: list[Product], filepath: str) -> None:
                 extrasaction="ignore",
             )
 
-            # Write the header row
-            writer.writeheader()
+            # Write the header row only if we are creating a new file
+            if mode == "w" or not file_exists:
+                writer.writeheader()
 
             # Write each product as a row
             for product in products:

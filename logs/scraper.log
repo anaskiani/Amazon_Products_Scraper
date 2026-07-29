@@ -6863,3 +6863,939 @@ Stacktrace:
 2026-07-28 23:40:24 | INFO     | __main__ | Scraping completed successfully!
 2026-07-28 23:40:24 | INFO     | __main__ | ============================================================
 2026-07-28 23:40:27 | INFO     | scraper.driver | Chrome WebDriver closed successfully.
+2026-07-28 23:46:05 | INFO     | __main__ | ============================================================
+2026-07-28 23:46:05 | INFO     | __main__ | Amazon Product Search Scraper — Starting
+2026-07-28 23:46:05 | INFO     | __main__ | ============================================================
+2026-07-28 23:46:05 | INFO     | __main__ | Keyword:    oneplus cases
+2026-07-28 23:46:05 | INFO     | __main__ | Pages:      5
+2026-07-28 23:46:05 | INFO     | __main__ | Headless:   True
+2026-07-28 23:46:05 | INFO     | __main__ | Resume:     False
+2026-07-28 23:46:05 | INFO     | __main__ | Location:   Zip Code 10001
+2026-07-28 23:46:05 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:46:05 | INFO     | scraper.driver | Initializing Chrome WebDriver (headless=True)...
+2026-07-28 23:46:06 | INFO     | scraper.driver | Chrome WebDriver initialized successfully.
+2026-07-28 23:46:06 | INFO     | scraper.search | Starting scrape: keyword='oneplus cases', pages 1 to 5
+2026-07-28 23:46:06 | INFO     | scraper.search | ━━━ Scraping page 1 of 5 ━━━
+2026-07-28 23:46:06 | INFO     | scraper.search | Setting delivery location to zipcode: 10001
+2026-07-28 23:46:19 | INFO     | scraper.search | Delivery location successfully updated.
+2026-07-28 23:46:19 | INFO     | scraper.search | Navigating to Amazon homepage...
+2026-07-28 23:46:20 | DEBUG    | scraper.search | Search input found. Typing keyword: 'oneplus cases'
+2026-07-28 23:46:29 | INFO     | scraper.search | Search submitted for keyword: 'oneplus cases'
+2026-07-28 23:46:30 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:46:30 | DEBUG    | scraper.parser | Product 1 parsed: Silicone Case for OnePlus 13, Green | Soft Silicone Silky To
+2026-07-28 23:46:30 | DEBUG    | scraper.parser | Product 2 parsed: for oneplus 15R case Marble and Flowers Slim Anti-Drop Shock
+2026-07-28 23:46:30 | DEBUG    | scraper.parser | Product 3 parsed: For OnePlus Nord N200 5G Case: Shockproof Non Slip Drop Prot
+2026-07-28 23:46:30 | DEBUG    | scraper.parser | Product 4 parsed: FNTCASE for OnePlus 15 Case, Fit for Magsafe, Screen Protect
+2026-07-28 23:46:30 | DEBUG    | scraper.parser | Product 5 parsed: OnePlus 15 Magnetic Case Sandstone, Textured Grip, N52 Magne
+2026-07-28 23:46:30 | DEBUG    | scraper.parser | Product 6 parsed: Oneplus Nord N200 5G Case: Military Grade 16ft Drop Tested, 
+2026-07-28 23:46:31 | DEBUG    | scraper.parser | Product 7 parsed: Poetic Revolution Case for OnePlus 15 5G, | Slide Camera Cov
+2026-07-28 23:46:31 | DEBUG    | scraper.parser | Product 8 parsed: FNTCASE for Oneplus 15 Clear Case One Plus 15 Case Compatibl
+2026-07-28 23:46:31 | DEBUG    | scraper.parser | Product 9 parsed: Poetic Guardian Case for OnePlus 15 5G, | Magsafe Compatible
+2026-07-28 23:46:31 | DEBUG    | scraper.parser | Product 10 parsed: Nillkin for OnePlus 15 MagSafe Case, MagSafe Compatible, Sho
+2026-07-28 23:46:31 | DEBUG    | scraper.parser | Product 11 parsed: MAKAVO Magnetic for OnePlus 12 Case [Compatible with MagSafe
+2026-07-28 23:46:31 | DEBUG    | scraper.parser | Product 12 parsed: Poetic Guardian Case for OnePlus 15R 5G, 20FT Mil-Grade Drop
+2026-07-28 23:46:31 | DEBUG    | scraper.parser | Product 13 parsed: Poetic for OnePlus 15 Case, | Compatible with MagSafe | 360°
+2026-07-28 23:46:31 | DEBUG    | scraper.parser | Product 14 parsed: Gritup Fit for OnePlus Nord N30 5G Case with Slide Camera Co
+2026-07-28 23:46:32 | DEBUG    | scraper.parser | Product 15 parsed: Poetic Revolution Case for OnePlus 13 5G, [Slide Camera Cove
+2026-07-28 23:46:32 | DEBUG    | scraper.parser | Product 16 parsed: FNTCASE for OnePlus 15 Case, Built-in Screen Protector, Kick
+2026-07-28 23:46:32 | DEBUG    | scraper.parser | Product 17 parsed: Dexnor for OnePlus 12 Case, [2 Front Frame] [Bulit-in Screen
+2026-07-28 23:46:32 | DEBUG    | scraper.parser | Product 18 parsed: FNTCASE for OnePlus 13 Case: Non Slip One Plus 13 Matte TPU 
+2026-07-28 23:46:32 | DEBUG    | scraper.parser | Product 19 parsed: Poetic Guardian Case for OnePlus 13 5G, Built-in Screen Prot
+2026-07-28 23:46:32 | DEBUG    | scraper.parser | Product 20 parsed: Spigen Ultra Hybrid Designed for Oneplus 13 Case (2025) [Ant
+2026-07-28 23:46:32 | DEBUG    | scraper.parser | Product 21 parsed: TUDIA MergeGrip [Military Grade] for OnePlus 15 5G Case (202
+2026-07-28 23:46:32 | DEBUG    | scraper.parser | Product 22 parsed: GiiYoon Silicone Case Compatible with OnePlus 15R, Full Body
+2026-07-28 23:46:32 | INFO     | scraper.search | Page 1: Extracted 22 products (total: 22)
+2026-07-28 23:46:32 | DEBUG    | utils.resume | Progress saved: keyword='oneplus cases', last_completed_page=1
+2026-07-28 23:46:32 | INFO     | scraper.search | ━━━ Scraping page 2 of 5 ━━━
+2026-07-28 23:46:32 | INFO     | scraper.search | Navigating to page 2: https://www.amazon.com/s?k=oneplus cases&page=2
+2026-07-28 23:46:37 | DEBUG    | scraper.search | Page 2 loaded successfully.
+2026-07-28 23:46:38 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:46:38 | DEBUG    | scraper.parser | Product 1 parsed: Silicone Case for OnePlus 13, Deep Purple | Soft Silicone Si
+2026-07-28 23:46:38 | DEBUG    | scraper.parser | Product 2 parsed: Poetic Revolution Case for OnePlus 15 5G, | Slide Camera Cov
+2026-07-28 23:46:38 | DEBUG    | scraper.parser | Product 3 parsed: for OnePlus Nord N10 5G Case with [2 Pack] Tempered Glass Sc
+2026-07-28 23:46:38 | DEBUG    | scraper.parser | Product 4 parsed: LeYi for OnePlus-15 Case MagSafe Fit Matte Translucent Shock
+2026-07-28 23:46:38 | DEBUG    | scraper.parser | Product 5 parsed: OtterBox OnePlus Nord N200 5G Commuter Series Lite Case - Bl
+2026-07-28 23:46:38 | DEBUG    | scraper.parser | Product 6 parsed: ENCASED Falcon Armor for OnePlus 10 Pro 5G Case (2022) Ultra
+2026-07-28 23:46:38 | DEBUG    | scraper.parser | Product 7 parsed: FNTCASE for OnePlus 15 Case: Non Slip One Plus 15 Matte TPU 
+2026-07-28 23:46:39 | DEBUG    | scraper.parser | Product 8 parsed: Ringke Onyx for OnePlus 15 Case [Compatible with MagSafe] Oi
+2026-07-28 23:46:39 | DEBUG    | scraper.parser | Product 9 parsed: ENCASED Falcon Armor Designed for OnePlus 9 Case with Screen
+2026-07-28 23:46:39 | DEBUG    | scraper.parser | Product 10 parsed: ATUMP for OnePlus Nord N200 5G Case with HD Screen Protector
+2026-07-28 23:46:39 | DEBUG    | scraper.parser | Product 11 parsed: GiiYoon Silicone Case Compatible with OnePlus 15R, Full Body
+2026-07-28 23:46:39 | DEBUG    | scraper.parser | Product 12 parsed: kwmobile Case Compatible with OnePlus Nord N200 5G Case - TP
+2026-07-28 23:46:39 | DEBUG    | scraper.parser | Product 13 parsed: Nillkin for OnePlus 15 Case | Slide Camera Cover | Full Came
+2026-07-28 23:46:39 | DEBUG    | scraper.parser | Product 14 parsed: Compatible with Oneplus 15 Case Slim Silicone Liquid Full Bo
+2026-07-28 23:46:39 | DEBUG    | scraper.parser | Product 15 parsed: Poetic Revolution Case Compatible with OnePlus 12 5G (2024),
+2026-07-28 23:46:40 | DEBUG    | scraper.parser | Product 16 parsed: Ringke for OnePlus 15 Case [Fusion-X Camo Black] | Enhanced 
+2026-07-28 23:46:40 | DEBUG    | scraper.parser | Product 17 parsed: FNTCASE for OnePlus 15R Case, Fit for Magsafe, Screen Protec
+2026-07-28 23:46:40 | DEBUG    | scraper.parser | Product 18 parsed: Spigen Liquid Air Designed for OnePlus 12 Case (2024) - Matt
+2026-07-28 23:46:40 | DEBUG    | scraper.parser | Product 19 parsed: FNTCASE for OnePlus 13 Case: Non Slip One Plus 13 Matte TPU 
+2026-07-28 23:46:40 | DEBUG    | scraper.parser | Product 20 parsed: Poetic Revolution Case Compatible with OnePlus 12R 5G (2024)
+2026-07-28 23:46:40 | DEBUG    | scraper.parser | Product 21 parsed: case for OnePlus 10Pro 5G Liquid Silicone TPU Phone case, St
+2026-07-28 23:46:40 | DEBUG    | scraper.parser | Product 22 parsed: for OnePlus Buds 4 Case with Carabiner and Cleaning Pen, Sof
+2026-07-28 23:46:40 | INFO     | scraper.search | Page 2: Extracted 22 products (total: 44)
+2026-07-28 23:46:40 | DEBUG    | utils.resume | Progress saved: keyword='oneplus cases', last_completed_page=2
+2026-07-28 23:46:40 | INFO     | scraper.search | ━━━ Scraping page 3 of 5 ━━━
+2026-07-28 23:46:40 | INFO     | scraper.search | Navigating to page 3: https://www.amazon.com/s?k=oneplus cases&page=3
+2026-07-28 23:46:42 | WARNING  | __main__ | Scraping interrupted by user (Ctrl+C).
+2026-07-28 23:46:42 | INFO     | __main__ | Progress has been saved. Use --resume to continue later.
+2026-07-28 23:47:02 | INFO     | __main__ | ============================================================
+2026-07-28 23:47:02 | INFO     | __main__ | Amazon Product Search Scraper — Starting
+2026-07-28 23:47:02 | INFO     | __main__ | ============================================================
+2026-07-28 23:47:02 | INFO     | __main__ | Keyword:    laptop stand
+2026-07-28 23:47:02 | INFO     | __main__ | Pages:      5
+2026-07-28 23:47:02 | INFO     | __main__ | Headless:   True
+2026-07-28 23:47:02 | INFO     | __main__ | Resume:     True
+2026-07-28 23:47:02 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:47:02 | INFO     | scraper.driver | Initializing Chrome WebDriver (headless=True)...
+2026-07-28 23:47:03 | INFO     | scraper.driver | Chrome WebDriver initialized successfully.
+2026-07-28 23:47:03 | INFO     | utils.resume | Saved keyword 'oneplus cases' doesn't match current keyword 'laptop stand'. Starting from page 1.
+2026-07-28 23:47:03 | INFO     | scraper.search | Starting scrape: keyword='laptop stand', pages 1 to 5
+2026-07-28 23:47:03 | INFO     | scraper.search | ━━━ Scraping page 1 of 5 ━━━
+2026-07-28 23:47:03 | INFO     | scraper.search | Navigating to Amazon homepage...
+2026-07-28 23:47:24 | WARNING  | utils.retry | Attempt 1/3 failed for 'perform_initial_search': Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff695e70d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff695e70d80+15600]
+	chromedriver!(No symbol) [0x7ff6959c594d]
+	chromedriver!(No symbol) [0x7ff695a208e9]
+	chromedriver!(No symbol) [0x7ff695a20bec]
+	chromedriver!(No symbol) [0x7ff695a71437]
+	chromedriver!(No symbol) [0x7ff695a6e01b]
+	chromedriver!(No symbol) [0x7ff695a12e6c]
+	chromedriver!(No symbol) [0x7ff695a13d93]
+	chromedriver!GetHandleVerifier [0x7ff696456431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff696450a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff696475865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff695e8dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff695e9661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff695e7ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff695e7ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff695e5d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffb3b9f7374+14]
+	ntdll!RtlUserThreadStart [0x7ffb3bd1cc91+21]
+. Retrying in 2.0 seconds...
+2026-07-28 23:47:25 | WARNING  | __main__ | Scraping interrupted by user (Ctrl+C).
+2026-07-28 23:47:25 | INFO     | __main__ | Progress has been saved. Use --resume to continue later.
+2026-07-28 23:47:46 | INFO     | __main__ | ============================================================
+2026-07-28 23:47:46 | INFO     | __main__ | Amazon Product Search Scraper — Starting
+2026-07-28 23:47:46 | INFO     | __main__ | ============================================================
+2026-07-28 23:47:46 | INFO     | __main__ | Keyword:    oneplus phone cases
+2026-07-28 23:47:46 | INFO     | __main__ | Pages:      5
+2026-07-28 23:47:46 | INFO     | __main__ | Headless:   True
+2026-07-28 23:47:46 | INFO     | __main__ | Resume:     False
+2026-07-28 23:47:46 | INFO     | __main__ | Location:   Zip Code 10001
+2026-07-28 23:47:46 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:47:46 | INFO     | scraper.driver | Initializing Chrome WebDriver (headless=True)...
+2026-07-28 23:47:52 | INFO     | scraper.driver | Chrome WebDriver initialized successfully.
+2026-07-28 23:47:52 | INFO     | scraper.search | Starting scrape: keyword='oneplus phone cases', pages 1 to 5
+2026-07-28 23:47:52 | INFO     | scraper.search | ━━━ Scraping page 1 of 5 ━━━
+2026-07-28 23:47:52 | INFO     | scraper.search | Setting delivery location to zipcode: 10001
+2026-07-28 23:48:05 | INFO     | scraper.search | Delivery location successfully updated.
+2026-07-28 23:48:05 | INFO     | scraper.search | Navigating to Amazon homepage...
+2026-07-28 23:48:06 | DEBUG    | scraper.search | Search input found. Typing keyword: 'oneplus phone cases'
+2026-07-28 23:48:14 | INFO     | scraper.search | Search submitted for keyword: 'oneplus phone cases'
+2026-07-28 23:48:17 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:48:17 | DEBUG    | scraper.parser | Product 1 parsed: Silicone Case for OnePlus 13, Deep Purple | Soft Silicone Si
+2026-07-28 23:48:17 | DEBUG    | scraper.parser | Product 2 parsed: for OnePlus 10 Pro Case 5G, Soft TPU Artificial Leather Back
+2026-07-28 23:48:17 | DEBUG    | scraper.parser | Product 3 parsed: For OnePlus Nord N200 5G Case: Shockproof Non Slip Drop Prot
+2026-07-28 23:48:17 | DEBUG    | scraper.parser | Product 4 parsed: Gritup Fit for OnePlus Nord N30 5G Case with Slide Camera Co
+2026-07-28 23:48:17 | DEBUG    | scraper.parser | Product 5 parsed: Oneplus Nord N200 5G Case: Military Grade 16ft Drop Tested, 
+2026-07-28 23:48:17 | DEBUG    | scraper.parser | Product 6 parsed: Osophter for Oneplus Nord N10 Case Shock-Absorption Flexible
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 7 parsed: Cute Cheetah Print Phone Case for OnePlus Nord N30 5g 6.72",
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 8 parsed: for OnePlus Nord N200 5G Phone case, Shockproof, Scratch Res
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 9 parsed: FNTCASE for OnePlus 15 Case, Fit for Magsafe, Screen Protect
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 10 parsed: ATUMP for OnePlus Nord N200 5G Case with HD Screen Protector
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 11 parsed: DETUOSI Oneplus Nord N200 5G Phone Case, Built in Screen Pro
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 12 parsed: for oneplus 15R Case 5G 6.83", [10FT Military Grade Drop Tes
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 13 parsed: ENCASED Falcon Armor Designed for OnePlus 9 Case with Screen
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 14 parsed: for Oneplus 9 5G Phone case,1+9 5G Case Shockproof, Scratch 
+2026-07-28 23:48:18 | DEBUG    | scraper.parser | Product 15 parsed: for OnePlus 8【Not fit 8T】 Case, for OnePlus 1+8 Case Dual La
+2026-07-28 23:48:19 | DEBUG    | scraper.parser | Product 16 parsed: Dionsibei Military Grade Drop Impact for Oneplus Nord N200 5
+2026-07-28 23:48:19 | DEBUG    | scraper.parser | Product 17 parsed: Super Thin for OnePlus 13R Case, Ultra Slim Skin-Friendly An
+2026-07-28 23:48:19 | DEBUG    | scraper.parser | Product 18 parsed: Poetic Revolution Case for OnePlus Nord N30 5G, [20FT Mil-Gr
+2026-07-28 23:48:19 | DEBUG    | scraper.parser | Product 19 parsed: FNTCASE for OnePlus 13 Case: Non Slip One Plus 13 Matte TPU 
+2026-07-28 23:48:19 | DEBUG    | scraper.parser | Product 20 parsed: for OnePlus Nord N30 5G Phone Case with 3 Pack Tempered Glas
+2026-07-28 23:48:19 | DEBUG    | scraper.parser | Product 21 parsed: kwmobile Case Compatible with OnePlus Nord N200 5G Case - TP
+2026-07-28 23:48:19 | DEBUG    | scraper.parser | Product 22 parsed: Bcov Case for OnePlus Nord N200 5G, Hummingbird in Flowers B
+2026-07-28 23:48:19 | INFO     | scraper.search | Page 1: Extracted 22 products (total: 22)
+2026-07-28 23:48:19 | DEBUG    | utils.resume | Progress saved: keyword='oneplus phone cases', last_completed_page=1
+2026-07-28 23:48:19 | INFO     | scraper.search | ━━━ Scraping page 2 of 5 ━━━
+2026-07-28 23:48:19 | INFO     | scraper.search | Navigating to page 2: https://www.amazon.com/s?k=oneplus phone cases&page=2
+2026-07-28 23:48:23 | DEBUG    | scraper.search | Page 2 loaded successfully.
+2026-07-28 23:48:23 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:48:24 | DEBUG    | scraper.parser | Product 1 parsed: for OnePlus 10 Pro Case 5G, Soft TPU Artificial Leather Back
+2026-07-28 23:48:24 | DEBUG    | scraper.parser | Product 2 parsed: Silicone Case for OnePlus 13, Deep Purple | Soft Silicone Si
+2026-07-28 23:48:24 | DEBUG    | scraper.parser | Product 3 parsed: for OnePlus Nord N20 5G Case with Slide Camera Cover and 2pc
+2026-07-28 23:48:24 | DEBUG    | scraper.parser | Product 4 parsed: for OnePlus Nord N10 5G Case with [2 Pack] Tempered Glass Sc
+2026-07-28 23:48:24 | DEBUG    | scraper.parser | Product 5 parsed: for OnePlus Nord N200 5G Case, Slim Flexible TPU for Girls W
+2026-07-28 23:48:24 | DEBUG    | scraper.parser | Product 6 parsed: OtterBox OnePlus Nord N200 5G Commuter Series Lite Case - Bl
+2026-07-28 23:48:24 | DEBUG    | scraper.parser | Product 7 parsed: kwmobile Case Compatible with OnePlus Nord N200 5G Case - TP
+2026-07-28 23:48:24 | DEBUG    | scraper.parser | Product 8 parsed: Cellular Phone Case for Oneplus Nord N200 5G, Clear TPU Shoc
+2026-07-28 23:48:25 | DEBUG    | scraper.parser | Product 9 parsed: FNTCASE for OnePlus 15 Case, Built-in Screen Protector, Kick
+2026-07-28 23:48:25 | DEBUG    | scraper.parser | Product 10 parsed: kwmobile Case Compatible with OnePlus Nord N200 5G Case - TP
+2026-07-28 23:48:25 | DEBUG    | scraper.parser | Product 11 parsed: kwmobile Case Compatible with OnePlus Nord N200 5G Case - TP
+2026-07-28 23:48:25 | DEBUG    | scraper.parser | Product 12 parsed: Cute Cheetah Print Phone Case for OnePlus Nord N30 5g 6.72",
+2026-07-28 23:48:25 | DEBUG    | scraper.parser | Product 13 parsed: Designed for OnePlus 15R Case,Flexible TPU [Brushed Texture]
+2026-07-28 23:48:25 | DEBUG    | scraper.parser | Product 14 parsed: MAKAVO for OnePlus Nord N30 5G Case with Glass Screen Protec
+2026-07-28 23:48:25 | DEBUG    | scraper.parser | Product 15 parsed: nancheng Cute Butterfly Kickstand Phone Case for OnePlus Nor
+2026-07-28 23:48:25 | DEBUG    | scraper.parser | Product 16 parsed: TUDIA DualShield Grip Designed for OnePlus10T Case 5G, [Merg
+2026-07-28 23:48:26 | DEBUG    | scraper.parser | Product 17 parsed: FNTCASE for OnePlus 15 Case: Non Slip One Plus 15 Matte TPU 
+2026-07-28 23:48:26 | DEBUG    | scraper.parser | Product 18 parsed: Spigen Ultra Hybrid Designed for Oneplus 13 Case (2025) [Ant
+2026-07-28 23:48:26 | DEBUG    | scraper.parser | Product 19 parsed: Compatible with Oneplus 8T Phone Case 6.5" 6.5" Clear | Onep
+2026-07-28 23:48:26 | DEBUG    | scraper.parser | Product 20 parsed: Osophter for Oneplus Nord N100 Case Shock-Absorption Flexibl
+2026-07-28 23:48:26 | DEBUG    | scraper.parser | Product 21 parsed: for OnePlus Nord N200 5G Case with HD Screen Protector, Mili
+2026-07-28 23:48:26 | DEBUG    | scraper.parser | Product 22 parsed: GiiYoon Silicone Case Compatible with OnePlus 15R, Full Body
+2026-07-28 23:48:26 | INFO     | scraper.search | Page 2: Extracted 22 products (total: 44)
+2026-07-28 23:48:26 | DEBUG    | utils.resume | Progress saved: keyword='oneplus phone cases', last_completed_page=2
+2026-07-28 23:48:26 | INFO     | scraper.search | ━━━ Scraping page 3 of 5 ━━━
+2026-07-28 23:48:26 | INFO     | scraper.search | Navigating to page 3: https://www.amazon.com/s?k=oneplus phone cases&page=3
+2026-07-28 23:48:30 | DEBUG    | scraper.search | Page 3 loaded successfully.
+2026-07-28 23:48:30 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:48:30 | DEBUG    | scraper.parser | Product 1 parsed: Silicone Case for OnePlus 13, Deep Purple | Soft Silicone Si
+2026-07-28 23:48:31 | DEBUG    | scraper.parser | Product 2 parsed: for OnePlus 10 Pro Case 5G, Soft TPU Artificial Leather Back
+2026-07-28 23:48:31 | DEBUG    | scraper.parser | Product 3 parsed: Poetic Guardian Series Case Designed for OnePlus Nord N10 5G
+2026-07-28 23:48:31 | DEBUG    | scraper.parser | Product 4 parsed: LeYi for Oneplus Nord N200-5G Case Military-Grade & Magnetic
+2026-07-28 23:48:31 | DEBUG    | scraper.parser | Product 5 parsed: Magnetic Leather Case for OnePlus Open with Rotating Kicksta
+2026-07-28 23:48:31 | DEBUG    | scraper.parser | Product 6 parsed: MAKAVO Magnetic for OnePlus 13 Case [Compatible with MagSafe
+2026-07-28 23:48:31 | DEBUG    | scraper.parser | Product 7 parsed: iCoverCase for OnePlus 9 5G Case Clear[Compatible with NA & 
+2026-07-28 23:48:31 | DEBUG    | scraper.parser | Product 8 parsed: Poetic Revolution Series Designed for Oneplus 10T Case, Full
+2026-07-28 23:48:31 | DEBUG    | scraper.parser | Product 9 parsed: FNTCASE for OnePlus 15R Case, Fit for Magsafe, Screen Protec
+2026-07-28 23:48:32 | DEBUG    | scraper.parser | Product 10 parsed: Case for Oneplus Nord N200 5G, 1+ Nord N200 5G Phone Case He
+2026-07-28 23:48:32 | DEBUG    | scraper.parser | Product 11 parsed: for Oneplus 12 (Not Fit 12R) Phone Case,for Plus One 1+12 Mo
+2026-07-28 23:48:32 | DEBUG    | scraper.parser | Product 12 parsed: Cute Cheetah Print Phone Case for OnePlus Nord N30 5g 6.72",
+2026-07-28 23:48:32 | WARNING  | __main__ | Scraping interrupted by user (Ctrl+C).
+2026-07-28 23:48:32 | INFO     | __main__ | Progress has been saved. Use --resume to continue later.
+2026-07-28 23:48:49 | INFO     | __main__ | ============================================================
+2026-07-28 23:48:49 | INFO     | __main__ | Amazon Product Search Scraper — Starting
+2026-07-28 23:48:49 | INFO     | __main__ | ============================================================
+2026-07-28 23:48:49 | INFO     | __main__ | Keyword:    oneplus phone cases
+2026-07-28 23:48:49 | INFO     | __main__ | Pages:      5
+2026-07-28 23:48:49 | INFO     | __main__ | Headless:   True
+2026-07-28 23:48:49 | INFO     | __main__ | Resume:     True
+2026-07-28 23:48:49 | INFO     | __main__ | Location:   Zip Code 10001
+2026-07-28 23:48:49 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:48:49 | INFO     | scraper.driver | Initializing Chrome WebDriver (headless=True)...
+2026-07-28 23:48:55 | INFO     | scraper.driver | Chrome WebDriver initialized successfully.
+2026-07-28 23:48:55 | INFO     | utils.resume | Resuming from page 3 (last completed: 2) for keyword 'oneplus phone cases'.
+2026-07-28 23:48:55 | INFO     | scraper.search | Starting scrape: keyword='oneplus phone cases', pages 3 to 7
+2026-07-28 23:48:55 | INFO     | scraper.search | ━━━ Scraping page 3 of 7 ━━━
+2026-07-28 23:48:55 | INFO     | scraper.search | Navigating to page 3: https://www.amazon.com/s?k=oneplus phone cases&page=3
+2026-07-28 23:49:12 | ERROR    | scraper.search | Page 3: Timed out waiting for results to load. Assuming end of results or blocked. Stopping.
+2026-07-28 23:49:12 | INFO     | scraper.search | Error screenshot saved: error_page3_20260728_234912.png
+2026-07-28 23:49:12 | INFO     | scraper.search | Scraping complete. Total products extracted: 0
+2026-07-28 23:49:12 | WARNING  | __main__ | No products were scraped. Exiting.
+2026-07-28 23:49:14 | INFO     | scraper.driver | Chrome WebDriver closed successfully.
+2026-07-28 23:57:09 | INFO     | __main__ | ============================================================
+2026-07-28 23:57:09 | INFO     | __main__ | Amazon Product Search Scraper — Starting
+2026-07-28 23:57:09 | INFO     | __main__ | ============================================================
+2026-07-28 23:57:09 | INFO     | __main__ | Keyword:    Iphone cases
+2026-07-28 23:57:09 | INFO     | __main__ | Pages:      5
+2026-07-28 23:57:09 | INFO     | __main__ | Headless:   False
+2026-07-28 23:57:09 | INFO     | __main__ | Resume:     False
+2026-07-28 23:57:09 | INFO     | __main__ | Location:   Zip Code 10001
+2026-07-28 23:57:09 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:57:09 | INFO     | scraper.driver | Initializing Chrome WebDriver (headless=False)...
+2026-07-28 23:57:15 | INFO     | scraper.driver | Chrome WebDriver initialized successfully.
+2026-07-28 23:57:15 | INFO     | scraper.search | Starting scrape: keyword='Iphone cases', pages 1 to 5
+2026-07-28 23:57:15 | INFO     | scraper.search | Setting delivery location to zipcode: 10001
+2026-07-28 23:57:29 | INFO     | scraper.search | Delivery location successfully updated.
+2026-07-28 23:57:29 | INFO     | scraper.search | ━━━ Scraping page 1 of 5 ━━━
+2026-07-28 23:57:29 | INFO     | scraper.search | Navigating to Amazon homepage...
+2026-07-28 23:57:30 | DEBUG    | scraper.search | Search input found. Typing keyword: 'Iphone cases'
+2026-07-28 23:57:37 | INFO     | scraper.search | Search submitted for keyword: 'Iphone cases'
+2026-07-28 23:57:40 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:57:40 | DEBUG    | scraper.parser | Product 1 parsed: Miracase for iPhone 17e Case & iPhone 16e Case, Full-Body Ph
+2026-07-28 23:57:40 | DEBUG    | scraper.parser | Product 2 parsed: Custom Name & Number Football Case for iPhone17 Air 16 15 Pr
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 3 parsed: OtterBox iPhone 17e, 16e, 15, 14, & 13 Commuter Series Case 
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 4 parsed: SUPFINE Magnetic for iPhone 13 Case/iPhone 14 Case Black | W
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 5 parsed: FNTCASE for iPhone 15/14/13 Case, Fit for Magsafe, Glass Scr
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 6 parsed: Apple iPhone 17 Pro Silicone Case with MagSafe and Camera Co
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 7 parsed: BERFY for iPhone 17 Case for Women Glitter Clear | Clear Gli
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 8 parsed: TORRAS for iPhone 17 Pro Case Crystal Clear, Upgraded Anti-Y
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 9 parsed: OtterBox iPhone 14 & iPhone 13 Commuter Series Case - BLACK 
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 10 parsed: FNTCASE for iPhone 17 Case, Compatible with Magsafe, Glass S
+2026-07-28 23:57:41 | DEBUG    | scraper.parser | Product 11 parsed: Magnetic for iPhone 17 Case, Compatible with MagSafe, [Full 
+2026-07-28 23:57:42 | DEBUG    | scraper.parser | Product 12 parsed: FireNova Magnetic for iPhone 12 Case, Compatible with MagSaf
+2026-07-28 23:57:42 | DEBUG    | scraper.parser | Product 13 parsed: OtterBox iPhone SE 3rd & 2nd Gen, iPhone 8 & iPhone 7 (not C
+2026-07-28 23:57:42 | DEBUG    | scraper.parser | Product 14 parsed: Spigen for iPhone 17 Case, Ultra Hybrid MagFit [TPU Covered 
+2026-07-28 23:57:42 | DEBUG    | scraper.parser | Product 15 parsed: OtterBox iPhone 17e & iPhone 16e (Only) - Defender Series Ca
+2026-07-28 23:57:42 | DEBUG    | scraper.parser | Product 16 parsed: FNTCASE for iPhone 17 Pro Case Clear Magnetic with Screen Pr
+2026-07-28 23:57:42 | DEBUG    | scraper.parser | Product 17 parsed: Miracase for iPhone 16e case & iPhone 17e Case for MagSafe [
+2026-07-28 23:57:42 | DEBUG    | scraper.parser | Product 18 parsed: OtterBox iPhone 17 Pro Defender Pro Series Case - Black - To
+2026-07-28 23:57:42 | DEBUG    | scraper.parser | Product 19 parsed: OtterBox iPhone 12 & iPhone 12 Pro Commuter Series Case - Bl
+2026-07-28 23:57:43 | DEBUG    | scraper.parser | Product 20 parsed: OtterBox iPhone 15 Pro MAX (Only) Commuter Series Case - Bla
+2026-07-28 23:57:43 | DEBUG    | scraper.parser | Product 21 parsed: OtterBox iPhone 15 Pro (Only) Commuter Series Case - Black, 
+2026-07-28 23:57:43 | DEBUG    | scraper.parser | Product 22 parsed: Compatible with iPhone 17E/16E Case with Magnetic Ring Stand
+2026-07-28 23:57:43 | INFO     | scraper.search | Page 1: Extracted 22 products (total: 22)
+2026-07-28 23:57:43 | DEBUG    | utils.resume | Progress saved: keyword='Iphone cases', last_completed_page=1
+2026-07-28 23:57:43 | INFO     | scraper.search | ━━━ Scraping page 2 of 5 ━━━
+2026-07-28 23:57:43 | INFO     | scraper.search | Navigating to page 2: https://www.amazon.com/s?k=Iphone cases&page=2
+2026-07-28 23:57:47 | DEBUG    | scraper.search | Page 2 loaded successfully.
+2026-07-28 23:57:47 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:57:47 | DEBUG    | scraper.parser | Product 1 parsed: SOKAD Magnetic Sage Floral Phone Case for iPhone 17 Pro Max,
+2026-07-28 23:57:47 | DEBUG    | scraper.parser | Product 2 parsed: BERFY for iPhone 17 Case for Women Glitter Clear | Clear Gli
+2026-07-28 23:57:47 | DEBUG    | scraper.parser | Product 3 parsed: IDweel for iPhone SE 2020 Case with Screen Protector, Case f
+2026-07-28 23:57:47 | DEBUG    | scraper.parser | Product 4 parsed: Cute Striped Case for iPhone 15 6.1",Pink/Yellow | Non-fade 
+2026-07-28 23:57:47 | DEBUG    | scraper.parser | Product 5 parsed: ZTOFERA Cute Vertical Striped Case for iPhone 13/14,Light Bl
+2026-07-28 23:57:47 | DEBUG    | scraper.parser | Product 6 parsed: CASEKOO for iPhone 17 Case Smooth Crystal Clear, Patented An
+2026-07-28 23:57:48 | DEBUG    | scraper.parser | Product 7 parsed: GVIEWIN for iPhone 17 Pro Case Compatible with MagSafe [Curl
+2026-07-28 23:57:48 | DEBUG    | scraper.parser | Product 8 parsed: Yeddabox for iPhone 17 Pro Case Cute Striped Phone Case Soft
+2026-07-28 23:57:48 | DEBUG    | scraper.parser | Product 9 parsed: Apple iPhone 16 Pro Max Silicone Case with MagSafe and Camer
+2026-07-28 23:57:48 | DEBUG    | scraper.parser | Product 10 parsed: YENAPOON for iPhone 12 Pro/iPhone 12 Case, Matte Magnetic Ca
+2026-07-28 23:57:48 | DEBUG    | scraper.parser | Product 11 parsed: Flower Pink Bow Heart Case for iPhone 16 E, White | Cute Flo
+2026-07-28 23:57:48 | DEBUG    | scraper.parser | Product 12 parsed: Casely iPhone 17 Pro Case | On the Dot | Pink & Brown Polka 
+2026-07-28 23:57:49 | DEBUG    | scraper.parser | Product 13 parsed: ORNARTO for iPhone 17 Pro Max Case, Liquid Silicone, Chalk P
+2026-07-28 23:57:49 | DEBUG    | scraper.parser | Product 14 parsed: Apple iPhone 17 Pro Max Clear Case with MagSafe MagSafe and 
+2026-07-28 23:57:49 | DEBUG    | scraper.parser | Product 15 parsed: Miracase Magnetic for iPhone 16 Pro Case Full-Body Phone wit
+2026-07-28 23:57:49 | DEBUG    | scraper.parser | Product 16 parsed: OtterBox iPhone 17 Profile Series Case - Black - Ultra-Thin,
+2026-07-28 23:57:49 | DEBUG    | scraper.parser | Product 17 parsed: OtterBox iPhone 17 Pro Max Defender Pro Series Case - Green 
+2026-07-28 23:57:49 | DEBUG    | scraper.parser | Product 18 parsed: GVIEWIN for iPhone 17 Case Floral, Slim Clear Non-Yellowing 
+2026-07-28 23:57:49 | DEBUG    | scraper.parser | Product 19 parsed: JETech Case for iPhone 15, Anti-Yellowing, Clear | Shockproo
+2026-07-28 23:57:49 | DEBUG    | scraper.parser | Product 20 parsed: TORRAS Ostand Q3 Air for iPhone 17 Pro Max Case with 360 Mag
+2026-07-28 23:57:50 | DEBUG    | scraper.parser | Product 21 parsed: for iPhone 17 Case, Compatible with MagSafe, Magnetic Slim C
+2026-07-28 23:57:50 | DEBUG    | scraper.parser | Product 22 parsed: Cute Striped Case for iPhone 15 Pro 6.1",Pink/Yellow | Non-f
+2026-07-28 23:57:50 | INFO     | scraper.search | Page 2: Extracted 22 products (total: 44)
+2026-07-28 23:57:50 | DEBUG    | utils.resume | Progress saved: keyword='Iphone cases', last_completed_page=2
+2026-07-28 23:57:50 | INFO     | scraper.search | ━━━ Scraping page 3 of 5 ━━━
+2026-07-28 23:57:50 | INFO     | scraper.search | Navigating to page 3: https://www.amazon.com/s?k=Iphone cases&page=3
+2026-07-28 23:57:54 | DEBUG    | scraper.search | Page 3 loaded successfully.
+2026-07-28 23:57:55 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:57:55 | DEBUG    | scraper.parser | Product 1 parsed: BURGA Unisex Phone Case for iPhone 15 Pro Max – Dual-Layer H
+2026-07-28 23:57:55 | DEBUG    | scraper.parser | Product 2 parsed: Magnetic for iPhone 17 Case with Stand Clear | (Screen Prote
+2026-07-28 23:57:55 | DEBUG    | scraper.parser | Product 3 parsed: OtterBox iPhone 14 Pro (ONLY) Commuter Series Case - Black, 
+2026-07-28 23:57:55 | DEBUG    | scraper.parser | Product 4 parsed: OtterBox iPhone SE 3rd & 2nd Gen, iPhone 8 & iPhone 7 (not C
+2026-07-28 23:57:55 | DEBUG    | scraper.parser | Product 5 parsed: TORRAS Ostand for iPhone 17 Pro Case Magnetic, Fit for MagSa
+2026-07-28 23:57:55 | DEBUG    | scraper.parser | Product 6 parsed: for iPhone 17 Pro Max Case, Magnetic & Shockproof, Orange Bu
+2026-07-28 23:57:55 | DEBUG    | scraper.parser | Product 7 parsed: inewateri for iPhone 13/14 Case Cute Polka Dot Aesthetics TP
+2026-07-28 23:57:56 | DEBUG    | scraper.parser | Product 8 parsed: SPIDERCASE Magnetic for iPhone 17 Pro Max Case,with [3 Stand
+2026-07-28 23:57:56 | DEBUG    | scraper.parser | Product 9 parsed: jaroco Magnetic for iPhone 13 Case Heavy Duty Protection Bla
+2026-07-28 23:57:56 | DEBUG    | scraper.parser | Product 10 parsed: OtterBox iPhone 16 Pro Symmetry Series Clear Case - Clear - 
+2026-07-28 23:57:56 | DEBUG    | scraper.parser | Product 11 parsed: SOKAD Magnetic Sage Floral Phone Case for iPhone 16, Green F
+2026-07-28 23:57:56 | DEBUG    | scraper.parser | Product 12 parsed: BERFY for iPhone 17 Case for Women Glitter Clear | Clear Gli
+2026-07-28 23:57:56 | WARNING  | __main__ | Scraping interrupted by user (Ctrl+C).
+2026-07-28 23:57:56 | INFO     | __main__ | Progress has been saved. Use --resume to continue later.
+2026-07-28 23:58:07 | INFO     | __main__ | ============================================================
+2026-07-28 23:58:07 | INFO     | __main__ | Amazon Product Search Scraper — Starting
+2026-07-28 23:58:07 | INFO     | __main__ | ============================================================
+2026-07-28 23:58:07 | INFO     | __main__ | Keyword:    Iphone cases
+2026-07-28 23:58:07 | INFO     | __main__ | Pages:      5
+2026-07-28 23:58:07 | INFO     | __main__ | Headless:   False
+2026-07-28 23:58:07 | INFO     | __main__ | Resume:     True
+2026-07-28 23:58:07 | INFO     | __main__ | Location:   Zip Code 10001
+2026-07-28 23:58:07 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:58:07 | INFO     | scraper.driver | Initializing Chrome WebDriver (headless=False)...
+2026-07-28 23:58:14 | INFO     | scraper.driver | Chrome WebDriver initialized successfully.
+2026-07-28 23:58:14 | INFO     | utils.resume | Resuming from page 3 (last completed: 2) for keyword 'Iphone cases'.
+2026-07-28 23:58:14 | INFO     | scraper.search | Starting scrape: keyword='Iphone cases', pages 3 to 5
+2026-07-28 23:58:14 | INFO     | scraper.search | Setting delivery location to zipcode: 10001
+2026-07-28 23:58:26 | INFO     | scraper.search | Delivery location successfully updated.
+2026-07-28 23:58:26 | INFO     | scraper.search | ━━━ Scraping page 3 of 5 ━━━
+2026-07-28 23:58:26 | INFO     | scraper.search | Navigating to page 3: https://www.amazon.com/s?k=Iphone cases&page=3
+2026-07-28 23:58:33 | DEBUG    | scraper.search | Page 3 loaded successfully.
+2026-07-28 23:58:33 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:58:33 | DEBUG    | scraper.parser | Product 1 parsed: SOKAD Magnetic Sage Floral Phone Case for iPhone 17 Pro Max,
+2026-07-28 23:58:33 | DEBUG    | scraper.parser | Product 2 parsed: for iPhone 13 & iPhone 14 Case,Hunting Camouflage(Camo),Dual
+2026-07-28 23:58:33 | DEBUG    | scraper.parser | Product 3 parsed: CASEKOO for iPhone 17 Case Smooth Crystal Clear, Patented An
+2026-07-28 23:58:33 | DEBUG    | scraper.parser | Product 4 parsed: FNTCASE for iPhone 17e/ iPhone 16e Case, Fit for Magsafe, Sc
+2026-07-28 23:58:34 | DEBUG    | scraper.parser | Product 5 parsed: Yeddabox for iPhone 17 Pro Case Cute Striped Phone Case Soft
+2026-07-28 23:58:34 | DEBUG    | scraper.parser | Product 6 parsed: Apple iPhone 16 Pro Max Silicone Case with MagSafe and Camer
+2026-07-28 23:58:34 | DEBUG    | scraper.parser | Product 7 parsed: ORNARTO for iPhone 17 Pro Max Case, Liquid Silicone, Chalk P
+2026-07-28 23:58:34 | DEBUG    | scraper.parser | Product 8 parsed: Apple iPhone 17 Pro Max Clear Case with MagSafe MagSafe and 
+2026-07-28 23:58:34 | DEBUG    | scraper.parser | Product 9 parsed: GVIEWIN for iPhone 17 Case Floral, Slim Clear Non-Yellowing 
+2026-07-28 23:58:34 | DEBUG    | scraper.parser | Product 10 parsed: OtterBox iPhone SE 3rd & 2nd Gen, iPhone 8 & iPhone 7 (not C
+2026-07-28 23:58:34 | DEBUG    | scraper.parser | Product 11 parsed: Flower Pink Bow Heart Case for iPhone 16 E, White | Cute Flo
+2026-07-28 23:58:35 | DEBUG    | scraper.parser | Product 12 parsed: Casely iPhone 16 Pro Max Case | Cottage Charm | Cottagecore 
+2026-07-28 23:58:35 | DEBUG    | scraper.parser | Product 13 parsed: JETech Case for iPhone 15, Anti-Yellowing, Clear | Shockproo
+2026-07-28 23:58:35 | DEBUG    | scraper.parser | Product 14 parsed: TORRAS Ostand Q3 Air for iPhone 17 Pro Max Case with 360 Mag
+2026-07-28 23:58:35 | DEBUG    | scraper.parser | Product 15 parsed: Miracase Magnetic for iPhone 16 Pro Case Full-Body Phone wit
+2026-07-28 23:58:35 | DEBUG    | scraper.parser | Product 16 parsed: TORRAS Ostand for iPhone 17 Pro Case Magnetic, Fit for MagSa
+2026-07-28 23:58:35 | DEBUG    | scraper.parser | Product 17 parsed: SPIDERCASE Magnetic for iPhone 17 Pro Max Case,with [3 Stand
+2026-07-28 23:58:35 | DEBUG    | scraper.parser | Product 18 parsed: jaroco Magnetic for iPhone 13 Case Heavy Duty Protection Bla
+2026-07-28 23:58:36 | DEBUG    | scraper.parser | Product 19 parsed: Pelican Protector iPhone 17 Pro Case - Rugged MagSafe Phone 
+2026-07-28 23:58:36 | DEBUG    | scraper.parser | Product 20 parsed: OtterBox iPhone 13 Pro Max & iPhone 12 Pro Max Commuter Seri
+2026-07-28 23:58:36 | DEBUG    | scraper.parser | Product 21 parsed: Casely iPhone 17 Pro Case | On the Dot | Pink & Brown Polka 
+2026-07-28 23:58:36 | DEBUG    | scraper.parser | Product 22 parsed: ONETOP for iPhone 14 Wallet Case with Credit Card Holder,Bla
+2026-07-28 23:58:36 | INFO     | scraper.search | Page 3: Extracted 22 products (total: 22)
+2026-07-28 23:58:36 | DEBUG    | utils.resume | Progress saved: keyword='Iphone cases', last_completed_page=3
+2026-07-28 23:58:36 | INFO     | scraper.search | ━━━ Scraping page 4 of 5 ━━━
+2026-07-28 23:58:36 | INFO     | scraper.search | Navigating to page 4: https://www.amazon.com/s?k=Iphone cases&page=4
+2026-07-28 23:58:41 | DEBUG    | scraper.search | Page 4 loaded successfully.
+2026-07-28 23:58:41 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:58:42 | DEBUG    | scraper.parser | Product 1 parsed: Compatible with Striped iPhone 13/14 Case with Stand,6.1" Bl
+2026-07-28 23:58:42 | DEBUG    | scraper.parser | Product 2 parsed: Miracase for iPhone 17e Case & iPhone 16e Case, Full-Body Ph
+2026-07-28 23:58:42 | DEBUG    | scraper.parser | Product 3 parsed: OtterBox iPhone 13 Pro Max & iPhone 12 Pro Max Commuter Seri
+2026-07-28 23:58:42 | DEBUG    | scraper.parser | Product 4 parsed: OtterBox Commuter Series Case for iPhone 11 & iPhone XR (Onl
+2026-07-28 23:58:42 | DEBUG    | scraper.parser | Product 5 parsed: YENAPOON for iPhone 12 Pro/iPhone 12 Case, Matte Magnetic Ca
+2026-07-28 23:58:42 | DEBUG    | scraper.parser | Product 6 parsed: Apple iPhone 13 Silicone Case with MagSafe – Midnight
+2026-07-28 23:58:42 | DEBUG    | scraper.parser | Product 7 parsed: Diverbox for iPhone 16e Case & iPhone 17e Case [Compatible w
+2026-07-28 23:58:43 | DEBUG    | scraper.parser | Product 8 parsed: kate spade new york iPhone 17 Pro Max Case - Flowerbed Blue 
+2026-07-28 23:58:43 | DEBUG    | scraper.parser | Product 9 parsed: FireNova Magnetic for iPhone 17 Pro Case, 6.3", Calke Green 
+2026-07-28 23:58:43 | DEBUG    | scraper.parser | Product 10 parsed: ORNARTO for iPhone 16 Case 6.1", Slim Liquid Silicone,Chalk 
+2026-07-28 23:58:43 | DEBUG    | scraper.parser | Product 11 parsed: Casely iPhone 17 Pro Case | Pastel Garden | Sunday Best | Co
+2026-07-28 23:58:43 | DEBUG    | scraper.parser | Product 12 parsed: SOKAD Magnetic Sage Floral Phone Case for iPhone 16, Green F
+2026-07-28 23:58:43 | DEBUG    | scraper.parser | Product 13 parsed: OtterBox iPhone 15 Plus and iPhone 14 Plus Commuter Series C
+2026-07-28 23:58:43 | DEBUG    | scraper.parser | Product 14 parsed: Magnetic Compatible with iPhone 16 Pro Max Case, [Built-in I
+2026-07-28 23:58:44 | DEBUG    | scraper.parser | Product 15 parsed: Spigen for iPhone 17 Pro Case, Ultra Hybrid MagFit [TPU Cove
+2026-07-28 23:58:44 | DEBUG    | scraper.parser | Product 16 parsed: CASEKOO Ultra-Magnetic Stand for iPhone 16 Pro Max Case, Sho
+2026-07-28 23:58:44 | DEBUG    | scraper.parser | Product 17 parsed: BERFY for iPhone 17 Pro Max Case, Compatible with MagSafe, B
+2026-07-28 23:58:44 | DEBUG    | scraper.parser | Product 18 parsed: ESR for iPhone 17 Pro Case Flex Stand, for MagSafe, Clear | 
+2026-07-28 23:58:44 | DEBUG    | scraper.parser | Product 19 parsed: Magnetic for iPhone 13/14 Case Cute Stripes Phone Case, Blue
+2026-07-28 23:58:44 | DEBUG    | scraper.parser | Product 20 parsed: ESR for iPhone 16 Case for MagSafe, Camera Control, Clear | 
+2026-07-28 23:58:44 | DEBUG    | scraper.parser | Product 21 parsed: Compatible with iPhone 13 & 14 Case 6.1'' with Magnetic Ring
+2026-07-28 23:58:45 | DEBUG    | scraper.parser | Product 22 parsed: Dexnor for iPhone 16 Case with Slide Camera Cover & Adjustab
+2026-07-28 23:58:45 | INFO     | scraper.search | Page 4: Extracted 22 products (total: 44)
+2026-07-28 23:58:45 | DEBUG    | utils.resume | Progress saved: keyword='Iphone cases', last_completed_page=4
+2026-07-28 23:58:45 | INFO     | scraper.search | ━━━ Scraping page 5 of 5 ━━━
+2026-07-28 23:58:45 | INFO     | scraper.search | Navigating to page 5: https://www.amazon.com/s?k=Iphone cases&page=5
+2026-07-28 23:58:50 | DEBUG    | scraper.search | Page 5 loaded successfully.
+2026-07-28 23:58:50 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:58:50 | DEBUG    | scraper.parser | Product 1 parsed: Dexnor for iPhone 17 Pro Case, [2 Front Frame & Built-in Fli
+2026-07-28 23:58:50 | DEBUG    | scraper.parser | Product 2 parsed: Casely iPhone 17 Case | On the Dot | White Polka Dot | Compa
+2026-07-28 23:58:50 | DEBUG    | scraper.parser | Product 3 parsed: ESR for iPhone 13 Pro Max Case for MagSafe, Anti-Yellowing, 
+2026-07-28 23:58:50 | DEBUG    | scraper.parser | Product 4 parsed: OtterBox iPhone 16 React Series Case - Clear - Ultra-Thin, S
+2026-07-28 23:58:50 | DEBUG    | scraper.parser | Product 5 parsed: ORNARTO for iPhone 16 Pro Max Case, Liquid Silicone, Chalk P
+2026-07-28 23:58:51 | DEBUG    | scraper.parser | Product 6 parsed: Compatible with iPhone 13/14 Case, Cute Fashion Aesthetic St
+2026-07-28 23:58:51 | DEBUG    | scraper.parser | Product 7 parsed: ESR for iPhone 16 Pro Max Case, Compatible with MagSafe, Sho
+2026-07-28 23:58:51 | DEBUG    | scraper.parser | Product 8 parsed: Cute Phone Case for iPhone 15 Case Cheetah Leopard Print | A
+2026-07-28 23:58:51 | DEBUG    | scraper.parser | Product 9 parsed: Miracase Ultra Slim Designed for iPhone SE Case 2022(3rd Gen
+2026-07-28 23:58:51 | DEBUG    | scraper.parser | Product 10 parsed: OtterBox iPhone 15 Pro (Only) Symmetry Series Case - Black, 
+2026-07-28 23:58:51 | DEBUG    | scraper.parser | Product 11 parsed: Compatible with iPhone 13 & 14 Case 6.1'' with Magnetic Ring
+2026-07-28 23:58:51 | DEBUG    | scraper.parser | Product 12 parsed: GolbinBox for iPhone 17 Pro Case with 360° Spin Magnetic Sta
+2026-07-28 23:58:51 | DEBUG    | scraper.parser | Product 13 parsed: OtterBox iPhone 17 Pro Commuter Series Case - Purple Mystery
+2026-07-28 23:58:52 | DEBUG    | scraper.parser | Product 14 parsed: OtterBox iPhone 16 Pro Max FRĒ Series Waterproof Case with M
+2026-07-28 23:58:52 | DEBUG    | scraper.parser | Product 15 parsed: TORRAS Magnetic Shockproof for iPhone 16 Pro Max Case, [Fit 
+2026-07-28 23:58:52 | DEBUG    | scraper.parser | Product 16 parsed: ORNARTO for iPhone 17 Pro Case 6.3", Slim Liquid Silicone,Ch
+2026-07-28 23:58:52 | DEBUG    | scraper.parser | Product 17 parsed: OtterBox iPhone 11 Prefix Series Case - Clear, Ultra-Thin, P
+2026-07-28 23:58:53 | DEBUG    | scraper.parser | Product 18 parsed: OtterBox iPhone 13 Pro (ONLY) Commuter Series Case - Rock Sk
+2026-07-28 23:58:53 | DEBUG    | scraper.parser | Product 19 parsed: Hython for iPhone 15 Case Cute Polka Dot Aesthetic Design Si
+2026-07-28 23:58:53 | DEBUG    | scraper.parser | Product 20 parsed: OtterBox iPhone 16 Profile Series Case - Black - Ultra-Thin,
+2026-07-28 23:58:53 | DEBUG    | scraper.parser | Product 21 parsed: Casely iPhone 16 Pro Case | On the Dot | White Polka Dot | B
+2026-07-28 23:58:54 | DEBUG    | scraper.parser | Product 22 parsed: TEAUGHT Compatible with iPhone 17 Pro Max Case Cute Pattern 
+2026-07-28 23:58:54 | INFO     | scraper.search | Page 5: Extracted 22 products (total: 66)
+2026-07-28 23:58:54 | DEBUG    | utils.resume | Progress saved: keyword='Iphone cases', last_completed_page=5
+2026-07-28 23:58:54 | INFO     | scraper.search | Scraping complete. Total products extracted: 66
+2026-07-28 23:58:54 | INFO     | __main__ | Scraping finished: 66 products extracted.
+2026-07-28 23:58:54 | INFO     | filters.product_filter | No filters applied. All 66 products kept.
+2026-07-28 23:58:54 | INFO     | exporters.csv_exporter | CSV export complete: 66 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.csv'
+2026-07-28 23:58:54 | INFO     | exporters.json_exporter | JSON export complete: 66 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.json'
+2026-07-28 23:58:54 | INFO     | exporters.sqlite_exporter | SQLite export complete: 66 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.db' (0 skipped — no ASIN)
+2026-07-28 23:58:54 | DEBUG    | utils.resume | Progress file cleared.
+2026-07-28 23:58:54 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:58:54 | INFO     | __main__ | SCRAPE SUMMARY
+2026-07-28 23:58:54 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:58:54 | INFO     | __main__ | Keyword:          Iphone cases
+2026-07-28 23:58:54 | INFO     | __main__ | Pages scraped:    5
+2026-07-28 23:58:54 | INFO     | __main__ | Products found:   66
+2026-07-28 23:58:54 | INFO     | __main__ | After filtering:  66
+2026-07-28 23:58:54 | INFO     | __main__ | Time elapsed:     46.1 seconds
+2026-07-28 23:58:54 | INFO     | __main__ | CSV output:       E:\Anas\internship\Week3\Amazon_Automation\output\results.csv
+2026-07-28 23:58:54 | INFO     | __main__ | JSON output:      E:\Anas\internship\Week3\Amazon_Automation\output\results.json
+2026-07-28 23:58:54 | INFO     | __main__ | SQLite output:    E:\Anas\internship\Week3\Amazon_Automation\output\results.db
+2026-07-28 23:58:54 | INFO     | __main__ | ============================================================
+2026-07-28 23:58:54 | INFO     | __main__ | Scraping completed successfully!
+2026-07-28 23:58:54 | INFO     | __main__ | ============================================================
+2026-07-28 23:58:56 | INFO     | scraper.driver | Chrome WebDriver closed successfully.
+2026-07-29 00:00:43 | INFO     | __main__ | ============================================================
+2026-07-29 00:00:43 | INFO     | __main__ | Amazon Product Search Scraper — Starting
+2026-07-29 00:00:43 | INFO     | __main__ | ============================================================
+2026-07-29 00:00:43 | INFO     | __main__ | Keyword:    Home Decor
+2026-07-29 00:00:43 | INFO     | __main__ | Pages:      15
+2026-07-29 00:00:43 | INFO     | __main__ | Headless:   True
+2026-07-29 00:00:43 | INFO     | __main__ | Resume:     False
+2026-07-29 00:00:43 | INFO     | __main__ | Location:   Zip Code 10001
+2026-07-29 00:00:43 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-29 00:00:43 | INFO     | scraper.driver | Initializing Chrome WebDriver (headless=True)...
+2026-07-29 00:01:00 | INFO     | scraper.driver | Chrome WebDriver initialized successfully.
+2026-07-29 00:01:00 | INFO     | scraper.search | Starting scrape: keyword='Home Decor', pages 1 to 15
+2026-07-29 00:01:00 | INFO     | scraper.search | Setting delivery location to zipcode: 10001
+2026-07-29 00:01:13 | INFO     | scraper.search | Delivery location successfully updated.
+2026-07-29 00:01:13 | INFO     | scraper.search | ━━━ Scraping page 1 of 15 ━━━
+2026-07-29 00:01:13 | INFO     | scraper.search | Navigating to Amazon homepage...
+2026-07-29 00:01:14 | DEBUG    | scraper.search | Search input found. Typing keyword: 'Home Decor'
+2026-07-29 00:01:21 | INFO     | scraper.search | Search submitted for keyword: 'Home Decor'
+2026-07-29 00:01:22 | INFO     | scraper.parser | Found 60 product cards on the page.
+2026-07-29 00:01:23 | DEBUG    | scraper.parser | Product 1 parsed: Touch Bedside Table LED Lamp, [Sleek Design & RGB Mode] Mult
+2026-07-29 00:01:23 | DEBUG    | scraper.parser | Product 2 parsed: USA Map Canvas Wall Art with Cork Pin Board – Decorative Pus
+2026-07-29 00:01:23 | DEBUG    | scraper.parser | Product 3 parsed: Art3d Black Metal Wall Art, 4 Pieces Abstract Wall Decor for
+2026-07-29 00:01:23 | DEBUG    | scraper.parser | Product 4 parsed: Fluxynara 48" x 36" Large Felt Bulletin Board, Oatmeal | 12 
+2026-07-29 00:01:23 | DEBUG    | scraper.parser | Product 5 parsed: Innqoo Candle Warmer Lamp with Timer Home Decor Birthday Gif
+2026-07-29 00:01:23 | DEBUG    | scraper.parser | Product 6 parsed: Lazebox Coasters Set of 8 for Drinks, 4 Inch Large Coasters 
+2026-07-29 00:01:24 | DEBUG    | scraper.parser | Product 7 parsed: Night Light, Night Lights Plug into Wall, Adjustable, 3000K 
+2026-07-29 00:01:24 | DEBUG    | scraper.parser | Product 8 parsed: 2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laund
+2026-07-29 00:01:24 | DEBUG    | scraper.parser | Product 9 parsed: EUDELE Adhesive Shower Caddy, 5 Pack Rustproof Stainless Ste
+2026-07-29 00:01:24 | DEBUG    | scraper.parser | Product 10 parsed: GODONLIF Candle Warmer Lamp with Timer, Birthday Gifts for W
+2026-07-29 00:01:24 | DEBUG    | scraper.parser | Product 11 parsed: Personalized Family Stained Glass Sun Catcher, Custom Photo 
+2026-07-29 00:01:24 | DEBUG    | scraper.parser | Product 12 parsed: TBWIND Abstract Face Ceramic Vases Set of 3, Modern Boho Flo
+2026-07-29 00:01:24 | DEBUG    | scraper.parser | Product 13 parsed: ARO VATIKA 7 Chakra Crystal Tree of Life – Healing Stones fo
+2026-07-29 00:01:25 | DEBUG    | scraper.parser | Product 14 parsed: CaliTime Decorative Couch Throw Pillow Covers 18 X 18 Inches
+2026-07-29 00:01:25 | DEBUG    | scraper.parser | Product 15 parsed: Der Rose 4 Pack Mini Fake Plants, Artificial Plants for Bath
+2026-07-29 00:01:25 | DEBUG    | scraper.parser | Product 16 parsed: MIULEE Corduroy Decorative Throw Pillow Covers 18x18 Cream W
+2026-07-29 00:01:25 | DEBUG    | scraper.parser | Product 17 parsed: Astercook Deep-Carbonized Bamboo Cutting Boards for Kitchen 
+2026-07-29 00:01:25 | DEBUG    | scraper.parser | Product 18 parsed: Homedics Tabletop Water Fountain, Home Décor Soothing Sound 
+2026-07-29 00:01:25 | DEBUG    | scraper.parser | Product 19 parsed: EVERGRACEHOME Chunky Chenille Knit Throw Blanket, 50 x 60, O
+2026-07-29 00:01:25 | DEBUG    | scraper.parser | Product 20 parsed: Flower Reed Diffuser Set of 3 for Bathroom Air Fresheners Sh
+2026-07-29 00:01:26 | DEBUG    | scraper.parser | Product 21 parsed: Faux Palm Tree 6.6Ft Tall Artificial Plants Indoor Silk Gree
+2026-07-29 00:01:26 | DEBUG    | scraper.parser | Product 22 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:01:26 | DEBUG    | scraper.parser | Product 23 parsed: MCGOR 10inch Under Cabinet Lighting, 2 Pack Rechargeable Mot
+2026-07-29 00:01:26 | DEBUG    | scraper.parser | Product 24 parsed: Der Rose Fake Eucalyptus Hanging Plant for Boho Bathroom Wal
+2026-07-29 00:01:26 | DEBUG    | scraper.parser | Product 25 parsed: Entryway Wall Key Holder with 5 Hooks, Metal Key Rack Wall M
+2026-07-29 00:01:26 | DEBUG    | scraper.parser | Product 26 parsed: CubesLand Scalloped Toilet Paper Storage Basket W/Handle for
+2026-07-29 00:01:26 | DEBUG    | scraper.parser | Product 27 parsed: OLANLY Bathroom Rugs 30x20, Extra Soft Absorbent Chenille Ba
+2026-07-29 00:01:26 | DEBUG    | scraper.parser | Product 28 parsed: MIULEE Soft Corduroy Decorative Throw Pillow Covers Forest G
+2026-07-29 00:01:27 | DEBUG    | scraper.parser | Product 29 parsed: Freyalife Fake Vines for Room Decor(12 Pack 84 Feet) Aesthet
+2026-07-29 00:01:27 | DEBUG    | scraper.parser | Product 30 parsed: Rust Throw Blanket - Soft & Fluffy Fleece, Cute & Aesthetic,
+2026-07-29 00:01:27 | DEBUG    | scraper.parser | Product 31 parsed: NICETOWN Halloween Pitch Black Solid Thermal Insulated Gromm
+2026-07-29 00:01:27 | DEBUG    | scraper.parser | Product 32 parsed: Hatch Restore 3 Sunrise Alarm Clock & Sound Machine, Smart L
+2026-07-29 00:01:27 | DEBUG    | scraper.parser | Product 33 parsed: Govee RGBIC Floor Lamp Basic, 1000lm LED Corner Lamp, Black 
+2026-07-29 00:01:27 | DEBUG    | scraper.parser | Product 34 parsed: StepRite Kitchen Mats for Floor, 2-Piece Anti-Fatigue Kitche
+2026-07-29 00:01:27 | DEBUG    | scraper.parser | Product 35 parsed: MIULEE Set of 2 Waffle Bathroom Rugs Boho Bath Mat Brown 18x
+2026-07-29 00:01:27 | DEBUG    | scraper.parser | Product 36 parsed: Veken Shower Caddy 6-Pack, Bathroom Organizers and Storage S
+2026-07-29 00:01:28 | DEBUG    | scraper.parser | Product 37 parsed: VASAGLE BARNET Collection - Side Table, Small End Table for 
+2026-07-29 00:01:28 | DEBUG    | scraper.parser | Product 38 parsed: Utopia Bedding Throw Pillows, Decorative 18x18 Pillow Insert
+2026-07-29 00:01:28 | DEBUG    | scraper.parser | Product 39 parsed: Sujeet Night Light, Night Lights Plug into Wall 8-Pack, Nigh
+2026-07-29 00:01:28 | DEBUG    | scraper.parser | Product 40 parsed: Lwenki Key Holder for Wall, Decorative Key and Mail Holder w
+2026-07-29 00:01:28 | DEBUG    | scraper.parser | Product 41 parsed: UTTCMK Bookshelf Decor Thinker Statue - Abstract Art Reading
+2026-07-29 00:01:28 | DEBUG    | scraper.parser | Product 42 parsed: 6FT Artificial Olive Tree Indoor Tall Faux with Planter&Bask
+2026-07-29 00:01:28 | DEBUG    | scraper.parser | Product 43 parsed: Green Pampas Grass Boho Bouquet – Exquisite Lavender and Euc
+2026-07-29 00:01:29 | DEBUG    | scraper.parser | Product 44 parsed: 10 Pcs Dried Eucalyptus Stems 17" Real Eucalyptus for Shower
+2026-07-29 00:01:29 | DEBUG    | scraper.parser | Product 45 parsed: MIULEE 100% Blackout Linen Curtains for Bedroom 52x84 Inches
+2026-07-29 00:01:29 | DEBUG    | scraper.parser | Product 46 parsed: Wood Bathroom Tray Farmhouse Decor Kitchen Soap Holder, 8.7"
+2026-07-29 00:01:29 | DEBUG    | scraper.parser | Product 47 parsed: Hipiwe Set of 2 Flat Woven Wicker Storage Bins with Lid Seag
+2026-07-29 00:01:29 | DEBUG    | scraper.parser | Product 48 parsed: Bedsure GentleSoft White Throw Blanket for Couch - Birthday 
+2026-07-29 00:01:29 | DEBUG    | scraper.parser | Product 49 parsed: OUTNILI Mop and Broom Holder Wall Mount - Wood Broom Mop Han
+2026-07-29 00:01:29 | DEBUG    | scraper.parser | Product 50 parsed: Delma Arched Mirror Full Length,Standing Mirror Full Body,La
+2026-07-29 00:01:30 | DEBUG    | scraper.parser | Product 51 parsed: MIULEE 18x18 Pillow Inserts 4 Pack, 100% Virgin Fiber Fillin
+2026-07-29 00:01:30 | DEBUG    | scraper.parser | Product 52 parsed: KSIPZE 100ft Led Strip Lights RGB Music Sync Color Changing 
+2026-07-29 00:01:30 | DEBUG    | scraper.parser | Product 53 parsed: Beautiful Decorative Books - Set of 2 Boxes Enhance Your Cof
+2026-07-29 00:01:30 | DEBUG    | scraper.parser | Product 54 parsed: PoKat 23" Modern Ceramic Table Lamp Set of 2 for Living Room
+2026-07-29 00:01:30 | DEBUG    | scraper.parser | Product 55 parsed: Reed Diffuser Set,3.38 fl oz (100 ml) - Clean Linen Oil Diff
+2026-07-29 00:01:30 | DEBUG    | scraper.parser | Product 56 parsed: Vintage Vase Set of 3, Ceramic Vintage Flower Vases, Chinois
+2026-07-29 00:01:30 | DEBUG    | scraper.parser | Product 57 parsed: Cocorrína Reed Diffuser Set, Clean Linen 6.7 fl oz Scented D
+2026-07-29 00:01:31 | DEBUG    | scraper.parser | Product 58 parsed: Wood Home Sign with Eucalyptus Wreath for O Home Decor Wall 
+2026-07-29 00:01:31 | DEBUG    | scraper.parser | Product 59 parsed: Der Rose 4 Pack Small Fake Plants in Black Pots, Bathroom Of
+2026-07-29 00:01:31 | DEBUG    | scraper.parser | Product 60 parsed: Hanobe Round Wooden Candle Holder Trays for Coffee Table, Di
+2026-07-29 00:01:31 | INFO     | scraper.search | Page 1: Extracted 60 products (total: 60)
+2026-07-29 00:01:31 | DEBUG    | utils.resume | Progress saved: keyword='Home Decor', last_completed_page=1
+2026-07-29 00:01:31 | INFO     | scraper.search | ━━━ Scraping page 2 of 15 ━━━
+2026-07-29 00:01:31 | INFO     | scraper.search | Navigating to page 2: https://www.amazon.com/s?k=Home Decor&page=2
+2026-07-29 00:01:37 | DEBUG    | scraper.search | Page 2 loaded successfully.
+2026-07-29 00:01:37 | INFO     | scraper.parser | Found 60 product cards on the page.
+2026-07-29 00:01:37 | DEBUG    | scraper.parser | Product 1 parsed: Touch Control Leaf Vintage Table Lamp with 3-Way Dimmable 2 
+2026-07-29 00:01:37 | DEBUG    | scraper.parser | Product 2 parsed: EDISHINE Tripod Table Lamp, Small Cute Bedside Lamp, 14.2 In
+2026-07-29 00:01:37 | DEBUG    | scraper.parser | Product 3 parsed: 6 Pack Reed Diffuser Set, Reed Diffusers for Home with 30 St
+2026-07-29 00:01:37 | DEBUG    | scraper.parser | Product 4 parsed: 60" Modern Floor Lamp with Beige Shade, 9W LED Bulb | 3 Colo
+2026-07-29 00:01:38 | DEBUG    | scraper.parser | Product 5 parsed: FANTESTICRYAN Small Birds Statues Home Decor, Modern Style, 
+2026-07-29 00:01:38 | DEBUG    | scraper.parser | Product 6 parsed: Govee 16.4ft RGBIC LED Strip Lights, LED Lights for Bedroom,
+2026-07-29 00:01:38 | DEBUG    | scraper.parser | Product 7 parsed: DUMOS 64"x21" Full Length Mirror with Stand, Full Body Floor
+2026-07-29 00:01:38 | DEBUG    | scraper.parser | Product 8 parsed: Bedside Table Lamp for Bedroom - Dimmable Touch, USB A+C, AC
+2026-07-29 00:01:38 | DEBUG    | scraper.parser | Product 9 parsed: 8x10 Area Rug Living Room Bedroom: Fluffy Plush Shag Carpet 
+2026-07-29 00:01:38 | DEBUG    | scraper.parser | Product 10 parsed: Utopia Bedding 18x18 Pillow Inserts, White Throw Pillows for
+2026-07-29 00:01:38 | DEBUG    | scraper.parser | Product 11 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:01:39 | DEBUG    | scraper.parser | Product 12 parsed: Funny Dog Bathroom Decor for Guest Bathroom Restroom Shelf –
+2026-07-29 00:01:39 | DEBUG    | scraper.parser | Product 13 parsed: Home Shelf Decor, Blue Bird Statue
+2026-07-29 00:01:39 | DEBUG    | scraper.parser | Product 14 parsed: MyGift Burnt Wood Bookends with Metal Industrial Pipe Design
+2026-07-29 00:01:39 | DEBUG    | scraper.parser | Product 15 parsed: TONOR Wood Slatwall Panels, 4 Pack 47.2" x 23.6"/ 120 x60cm(
+2026-07-29 00:01:39 | DEBUG    | scraper.parser | Product 16 parsed: COOVA Faux Fur Throw Blanket for Couch, Cozy Soft and Fuzzy 
+2026-07-29 00:01:39 | DEBUG    | scraper.parser | Product 17 parsed: Command 15 lb Large Picture Hanging Strips 14 Pairs (28 Stri
+2026-07-29 00:01:39 | DEBUG    | scraper.parser | Product 18 parsed: HUONUL Makeup Mirror, Vanity Mirror with Lights, 2X/3X/10X M
+2026-07-29 00:01:39 | DEBUG    | scraper.parser | Product 19 parsed: Personalized Heart Plaque Custom Name Sea Glass Birds Tree o
+2026-07-29 00:01:40 | DEBUG    | scraper.parser | Product 20 parsed: Touch Bedside Table LED Lamp, [Sleek Design & RGB Mode] Mult
+2026-07-29 00:01:40 | DEBUG    | scraper.parser | Product 21 parsed: COCODOR Rose Flower Reed Diffuser/White Jasmine/6.7oz/1Pack 
+2026-07-29 00:01:40 | DEBUG    | scraper.parser | Product 22 parsed: Bestie Gift for Women, Friend Gifts for Women, Unique Friend
+2026-07-29 00:01:40 | DEBUG    | scraper.parser | Product 23 parsed: L LOHAS LED Night Lights Plug into Wall 2-Pack, 0.3W Plug in
+2026-07-29 00:01:40 | DEBUG    | scraper.parser | Product 24 parsed: ROTTOGOON Floor Lamp for Living Room with 3 Color Temperatur
+2026-07-29 00:01:40 | DEBUG    | scraper.parser | Product 25 parsed: DAYBETTER LED Strip Lights 110ft, Smart Lighting Strips with
+2026-07-29 00:01:40 | DEBUG    | scraper.parser | Product 26 parsed: 3D Wooden Floral Bathroom Wall Decor (Set of 4) Lightweight,
+2026-07-29 00:01:41 | DEBUG    | scraper.parser | Product 27 parsed: GORILLA GRIP Bath Rug Mat, Thick Soft Absorbent Chenille, Qu
+2026-07-29 00:01:41 | DEBUG    | scraper.parser | Product 28 parsed: Northern Galaxy Light Aurora Projector with 33 Light Effects
+2026-07-29 00:01:41 | DEBUG    | scraper.parser | Product 29 parsed: XXXFLOWER Plant Terrarium with Wooden Stand, Air Planter Bul
+2026-07-29 00:01:41 | DEBUG    | scraper.parser | Product 30 parsed: pickpiff 13LB Strong Stick-on Hooks for Coat & Towel, Black 
+2026-07-29 00:01:41 | DEBUG    | scraper.parser | Product 31 parsed: Der Rose 4Pcs Fake Hanging Plants with Lush Cascading Greene
+2026-07-29 00:01:41 | DEBUG    | scraper.parser | Product 32 parsed: Tbestmax 3 Pack Qtips Holder Bathroom Container, 10 oz Cotto
+2026-07-29 00:01:42 | DEBUG    | scraper.parser | Product 33 parsed: Peakeep Slim Digital Mirror Aesthetic Alarm Clock for Bedroo
+2026-07-29 00:01:42 | DEBUG    | scraper.parser | Product 34 parsed: 6FT Artificial Olive Tree with Lights & Planter, Realistic F
+2026-07-29 00:01:42 | DEBUG    | scraper.parser | Product 35 parsed: YOUDENOVA Jute Rope Laundry Hamper Basket, 58L Blanket Baske
+2026-07-29 00:01:42 | DEBUG    | scraper.parser | Product 36 parsed: PLHXFR 8x10 Area Rug Living Room: Floral Washable Boho Carpe
+2026-07-29 00:01:42 | DEBUG    | scraper.parser | Product 37 parsed: Small Heart Hands Sculpture Decor for Living Room Bedroom Bo
+2026-07-29 00:01:42 | DEBUG    | scraper.parser | Product 38 parsed: Bamworld Plant Stand with Grow Light Plant Shelf for Mutiple
+2026-07-29 00:01:42 | DEBUG    | scraper.parser | Product 39 parsed: Soalmost Washable Area Rug 8x10 Large Soft Beige Rugs for Li
+2026-07-29 00:01:43 | DEBUG    | scraper.parser | Product 40 parsed: Natural Jute Boho Lanterns - Handcrafted Coffee Table Decor 
+2026-07-29 00:01:43 | DEBUG    | scraper.parser | Product 41 parsed: Abstract Person and Dog Head-to-Head Figurine Sandstone | ab
+2026-07-29 00:01:43 | DEBUG    | scraper.parser | Product 42 parsed: Vanselia Ceramic Flower Vase Home Decor - Farmhouse Table Va
+2026-07-29 00:01:43 | DEBUG    | scraper.parser | Product 43 parsed: SUNMORY Floor Lamp with Shelves, Standing Lamps for Living R
+2026-07-29 00:01:43 | DEBUG    | scraper.parser | Product 44 parsed: Flower Reed Diffuser Set Eucalyptus & Lavender Scent for Roo
+2026-07-29 00:01:43 | DEBUG    | scraper.parser | Product 45 parsed: Seealle 23" Modern Ceramic Table Lamps Set of 2, Lamps for B
+2026-07-29 00:01:43 | DEBUG    | scraper.parser | Product 46 parsed: 8x10 Area Rugs Washable Rug: Large Modern Abstract Living Ro
+2026-07-29 00:01:44 | DEBUG    | scraper.parser | Product 47 parsed: Vittanly 15 Pack Picture Frames Collage Wall Decor, Wall/Tab
+2026-07-29 00:01:44 | DEBUG    | scraper.parser | Product 48 parsed: ASAKUKI Essential Oil Diffuser for Home, 500ML Aromatherapy 
+2026-07-29 00:01:44 | DEBUG    | scraper.parser | Product 49 parsed: ZHUNFA Arched Full Length Mirror with Solid Wood Frame | 71x
+2026-07-29 00:01:44 | DEBUG    | scraper.parser | Product 50 parsed: upsimples 4 Pcs 15" Acrylic Shelves for Wall Storage and Org
+2026-07-29 00:01:44 | DEBUG    | scraper.parser | Product 51 parsed: PoKat 20.75" Small Modern Ceramic Table Lamps Set of 2 for B
+2026-07-29 00:01:45 | DEBUG    | scraper.parser | Product 52 parsed: SOLPEX Solar Deck Lights Outdoor 16 Pack,Step Light Waterpro
+2026-07-29 00:01:45 | DEBUG    | scraper.parser | Product 53 parsed: Nacome Solar Garden Outdoor Statues Turtle with Succulent | 
+2026-07-29 00:01:45 | DEBUG    | scraper.parser | Product 54 parsed: rabbitgoo Rainbow Window Privacy Film, Stained Glass Cling, 
+2026-07-29 00:01:45 | DEBUG    | scraper.parser | Product 55 parsed: L LOHAS LED Night Light Plug in, Night Lights Plug into Wall
+2026-07-29 00:01:45 | DEBUG    | scraper.parser | Product 56 parsed: 5x7 Area Rugs Living Room: Washable Vintage Rug for Bedroom 
+2026-07-29 00:01:45 | DEBUG    | scraper.parser | Product 57 parsed: 4-7 Pieces Fashion Decorations Book Set. Premium Aesthetic F
+2026-07-29 00:01:46 | DEBUG    | scraper.parser | Product 58 parsed: Touch Bedside Table LED Lamp, [Sleek Design & RGB Mode] Mult
+2026-07-29 00:01:46 | DEBUG    | scraper.parser | Product 59 parsed: Amazon Echo Show 5 (newest model), Smart display, Designed f
+2026-07-29 00:01:46 | DEBUG    | scraper.parser | Product 60 parsed: Ceramic Flower Vase with Handles, 11 inch Tall Vase for Cent
+2026-07-29 00:01:46 | INFO     | scraper.search | Page 2: Extracted 60 products (total: 120)
+2026-07-29 00:01:46 | DEBUG    | utils.resume | Progress saved: keyword='Home Decor', last_completed_page=2
+2026-07-29 00:01:46 | INFO     | scraper.search | ━━━ Scraping page 3 of 15 ━━━
+2026-07-29 00:01:46 | INFO     | scraper.search | Navigating to page 3: https://www.amazon.com/s?k=Home Decor&page=3
+2026-07-29 00:01:51 | DEBUG    | scraper.search | Page 3 loaded successfully.
+2026-07-29 00:01:52 | INFO     | scraper.parser | Found 60 product cards on the page.
+2026-07-29 00:01:52 | DEBUG    | scraper.parser | Product 1 parsed: Joint Honglin Solar Elephant Planter Garden Statue with Wate
+2026-07-29 00:01:52 | DEBUG    | scraper.parser | Product 2 parsed: Personalized Family Stained Glass Sun Catcher, Custom Photo 
+2026-07-29 00:01:52 | DEBUG    | scraper.parser | Product 3 parsed: Personalized Heart Plaque Custom Name Sea Glass Birds Tree o
+2026-07-29 00:01:52 | DEBUG    | scraper.parser | Product 4 parsed: TBWIND Abstract Face Ceramic Vases Set of 3, Modern Boho Flo
+2026-07-29 00:01:52 | DEBUG    | scraper.parser | Product 5 parsed: Touch Bedside Table LED Lamp, [Sleek Design & RGB Mode] Mult
+2026-07-29 00:01:52 | DEBUG    | scraper.parser | Product 6 parsed: Ceramic Flower Vase with Handles, 11 inch Tall Vase for Cent
+2026-07-29 00:01:52 | DEBUG    | scraper.parser | Product 7 parsed: Glivpny Mushroom Lamp Table Lamp for Night Stands,Mid Centur
+2026-07-29 00:01:53 | DEBUG    | scraper.parser | Product 8 parsed: DreamSky Wooden Digital Alarm Clock for Bedroom with Large N
+2026-07-29 00:01:53 | DEBUG    | scraper.parser | Product 9 parsed: GIGALUMI Solar Lights Outdoor Waterproof 12 Pack, LED Garden
+2026-07-29 00:01:53 | DEBUG    | scraper.parser | Product 10 parsed: HOOBRO Blanket Ladder, 5-Tier Towel Rack with Hooks, Wall-Le
+2026-07-29 00:01:53 | DEBUG    | scraper.parser | Product 11 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:01:53 | DEBUG    | scraper.parser | Product 12 parsed: Home Shelf Decor, Blue Bird Statue
+2026-07-29 00:01:53 | DEBUG    | scraper.parser | Product 13 parsed: Funny Dog Bathroom Decor for Guest Bathroom Restroom Shelf –
+2026-07-29 00:01:53 | DEBUG    | scraper.parser | Product 14 parsed: LALISU Cordless Table Lamp, 3 Color Dimming Portable Battery
+2026-07-29 00:01:53 | DEBUG    | scraper.parser | Product 15 parsed: Solar Fence Lights Outdoor - 2700/4000/6000K 3 Mode, 8 Pack 
+2026-07-29 00:01:54 | DEBUG    | scraper.parser | Product 16 parsed: VIVATREES Olive Trees Artificial Indoor, 6FT Tall Faux Olive
+2026-07-29 00:01:54 | DEBUG    | scraper.parser | Product 17 parsed: Candle Warmer Lamp with Timer Dimmer, Birthday Gifts for Wom
+2026-07-29 00:01:54 | DEBUG    | scraper.parser | Product 18 parsed: Bessol Artificial Eucalyptus Stems in Glass Vase with Faux W
+2026-07-29 00:01:54 | DEBUG    | scraper.parser | Product 19 parsed: MyGift Burnt Wood Bookends with Metal Industrial Pipe Design
+2026-07-29 00:01:54 | DEBUG    | scraper.parser | Product 20 parsed: AMOAMI-Area Rug 5X7 Rugs for Living Room-Vintage Soft Beige 
+2026-07-29 00:01:54 | DEBUG    | scraper.parser | Product 21 parsed: Bestie Gift for Women, Friend Gifts for Women, Unique Friend
+2026-07-29 00:01:55 | DEBUG    | scraper.parser | Product 22 parsed: Custom Metal Campfire Outdoor Last Name Established Sign | C
+2026-07-29 00:01:55 | DEBUG    | scraper.parser | Product 23 parsed: LED Night Light,Night Lights Plug Into Wall [2 Pack],3000K |
+2026-07-29 00:01:55 | DEBUG    | scraper.parser | Product 24 parsed: Reed Diffuser Set of 3,Clean Linen Ocean Mist&Sea Salt Laven
+2026-07-29 00:01:55 | DEBUG    | scraper.parser | Product 25 parsed: JKIMK Solar Globe Lights Outdoor Waterproof-Solar Balls for 
+2026-07-29 00:01:55 | DEBUG    | scraper.parser | Product 26 parsed: Bath Mat,Ultra Thin Bathroom Rugs,Rubber Bath Mats for Bathr
+2026-07-29 00:01:55 | DEBUG    | scraper.parser | Product 27 parsed: Lvases Snuggle Hollow Ceramic Vase Set of 2, Boho Home Decor
+2026-07-29 00:01:55 | DEBUG    | scraper.parser | Product 28 parsed: Aesthetic Decorative Books Set of 2 - Stylish Boxes for Coff
+2026-07-29 00:01:56 | DEBUG    | scraper.parser | Product 29 parsed: Large Woven Blanket Basket,65L Cotton Rope Laundry Basket | 
+2026-07-29 00:01:56 | DEBUG    | scraper.parser | Product 30 parsed: seenlast Candle Warmer Lamp with Timer Dimmer Adjustable Hei
+2026-07-29 00:01:56 | DEBUG    | scraper.parser | Product 31 parsed: KLM Liquor Bottle Display Shelf, Coffee Syrup Rack Organizer
+2026-07-29 00:01:56 | DEBUG    | scraper.parser | Product 32 parsed: upsimples Floating Shelves for Wall Decor and Storage, Black
+2026-07-29 00:01:56 | DEBUG    | scraper.parser | Product 33 parsed: Sweet Water Decor Salt & Sea Reed Diffuser Set - Sea Salt Ci
+2026-07-29 00:01:56 | DEBUG    | scraper.parser | Product 34 parsed: Digital Wall Clock, Digital Clock Large Display with Remote 
+2026-07-29 00:01:56 | DEBUG    | scraper.parser | Product 35 parsed: DUMOS Arched LED Mirror Full Length Standing, 16"x60" Full B
+2026-07-29 00:01:56 | DEBUG    | scraper.parser | Product 36 parsed: Kalrin Over-The-Toilet Storage Rack, 4-Tier Bathroom Organiz
+2026-07-29 00:01:57 | DEBUG    | scraper.parser | Product 37 parsed: Yalikop 3 Link Wood Knot Decor Rustic Home Décor Accents Han
+2026-07-29 00:01:57 | DEBUG    | scraper.parser | Product 38 parsed: Large Framed Boho Modern Neutral Abstract Wall Art for Livin
+2026-07-29 00:01:57 | DEBUG    | scraper.parser | Product 39 parsed: Honyee Full Length Mirror, 63" x 24" Wall Mirror, Flannel Wr
+2026-07-29 00:01:57 | DEBUG    | scraper.parser | Product 40 parsed: Govee Smart Light Bar, RGBICWW TV Lights for Living Room, Ga
+2026-07-29 00:01:57 | DEBUG    | scraper.parser | Product 41 parsed: Odokee Sunrise Alarm Clock White Noise Machine: Natural Wake
+2026-07-29 00:01:57 | DEBUG    | scraper.parser | Product 42 parsed: Bedsure GentleSoft Sage Green Throw Blanket for Couch - Chec
+2026-07-29 00:01:57 | DEBUG    | scraper.parser | Product 43 parsed: Acrylic Display Risers, 3 Tier Perfume Organizer, Clear Cupc
+2026-07-29 00:01:58 | DEBUG    | scraper.parser | Product 44 parsed: OLANLY Area Rugs for Living Room Bedroom, Machine Washable 4
+2026-07-29 00:01:58 | DEBUG    | scraper.parser | Product 45 parsed: Dobbyby Ceramic Flower Vase 7.6 inch Farmhouse Rustic Vase D
+2026-07-29 00:01:58 | DEBUG    | scraper.parser | Product 46 parsed: AMADA HOMEFURNISHING Floating Shelves, Wall Shelves for Bath
+2026-07-29 00:01:58 | DEBUG    | scraper.parser | Product 47 parsed: Bird Figurines For Home Decor,Bird Statue Sculpture For Shel
+2026-07-29 00:01:58 | DEBUG    | scraper.parser | Product 48 parsed: Jexine 4 Pcs Hanging Planters with Artificial Eucalyptus Met
+2026-07-29 00:01:58 | DEBUG    | scraper.parser | Product 49 parsed: Boho Table Runner for Fall Home Decor 12x72 Rustic with Tass
+2026-07-29 00:01:58 | DEBUG    | scraper.parser | Product 50 parsed: FOXMIS Miniature Frog Garden Statue Mom Dad Gifts Home Decor
+2026-07-29 00:01:59 | DEBUG    | scraper.parser | Product 51 parsed: Jetec I Still Remember The Days I Prayed Rustic Wood Sign | 
+2026-07-29 00:01:59 | DEBUG    | scraper.parser | Product 52 parsed: Pelican Key Holder Statues,Fun Animal Hippo Candy Dish,Candy
+2026-07-29 00:01:59 | DEBUG    | scraper.parser | Product 53 parsed: MIULEE Fall Corduroy Decorative Throw Pillow Covers Brown Se
+2026-07-29 00:01:59 | DEBUG    | scraper.parser | Product 54 parsed: White Ceramic Flower Vase Home Table Decor Heart Shaped Vase
+2026-07-29 00:01:59 | DEBUG    | scraper.parser | Product 55 parsed: Industrial Bedside Lamps Set of 2, Fully Dimmable Desk Lamps
+2026-07-29 00:01:59 | DEBUG    | scraper.parser | Product 56 parsed: COCORRÍNA Reed Diffuser - Cashmere Vanilla 6.7 fl oz Reed Di
+2026-07-29 00:01:59 | DEBUG    | scraper.parser | Product 57 parsed: Large 3D Textured Framed Abstract Wall Art for Living Room, 
+2026-07-29 00:02:00 | DEBUG    | scraper.parser | Product 58 parsed: Interchange Welcome Sign Front Door Wreaths for Spring Fall 
+2026-07-29 00:02:00 | DEBUG    | scraper.parser | Product 59 parsed: SpaceAid Toy Storage Organizer with 6 Shelves and 12 Bins, B
+2026-07-29 00:02:00 | DEBUG    | scraper.parser | Product 60 parsed: 7ft Artificial Olive Tree with Tall Exquisite Planter | Real
+2026-07-29 00:02:00 | INFO     | scraper.search | Page 3: Extracted 60 products (total: 180)
+2026-07-29 00:02:00 | DEBUG    | utils.resume | Progress saved: keyword='Home Decor', last_completed_page=3
+2026-07-29 00:02:00 | INFO     | scraper.search | ━━━ Scraping page 4 of 15 ━━━
+2026-07-29 00:02:00 | INFO     | scraper.search | Navigating to page 4: https://www.amazon.com/s?k=Home Decor&page=4
+2026-07-29 00:02:06 | DEBUG    | scraper.search | Page 4 loaded successfully.
+2026-07-29 00:02:06 | INFO     | scraper.parser | Found 60 product cards on the page.
+2026-07-29 00:02:06 | DEBUG    | scraper.parser | Product 1 parsed: Personalized Heart Plaque Custom Name Sea Glass Birds Tree o
+2026-07-29 00:02:06 | DEBUG    | scraper.parser | Product 2 parsed: Touch Control Leaf Vintage Table Lamp with 3-Way Dimmable 2 
+2026-07-29 00:02:07 | DEBUG    | scraper.parser | Product 3 parsed: Funny Dog Bathroom Decor for Guest Bathroom Restroom Shelf –
+2026-07-29 00:02:07 | DEBUG    | scraper.parser | Product 4 parsed: Personalized Family Stained Glass Sun Catcher, Custom Photo 
+2026-07-29 00:02:07 | DEBUG    | scraper.parser | Product 5 parsed: Smart Corner Floor Lamp, RGBICW LED Standing Lamp with App C
+2026-07-29 00:02:07 | DEBUG    | scraper.parser | Product 6 parsed: Realead Large Artificial Olive Tree 8ft with Thick Trunk & R
+2026-07-29 00:02:07 | DEBUG    | scraper.parser | Product 7 parsed: Moucuny 4 Pcs Farmhouse Wooden Tabletop Decor Farmhouse Tier
+2026-07-29 00:02:07 | DEBUG    | scraper.parser | Product 8 parsed: Ivilon Drapery Window Curtain Rod - End Cap Style Design 1 I
+2026-07-29 00:02:07 | DEBUG    | scraper.parser | Product 9 parsed: Der Rose 2 Pack Fake Plants Small Plants for Bathroom Office
+2026-07-29 00:02:08 | DEBUG    | scraper.parser | Product 10 parsed: 48 Pack Glass Cylinder Vases 4,6,8,10 Inch Tall Clear Flower
+2026-07-29 00:02:08 | DEBUG    | scraper.parser | Product 11 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:02:08 | DEBUG    | scraper.parser | Product 12 parsed: TBWIND Abstract Face Ceramic Vases Set of 3, Modern Boho Flo
+2026-07-29 00:02:08 | DEBUG    | scraper.parser | Product 13 parsed: Home Shelf Decor, Blue Bird Statue
+2026-07-29 00:02:08 | DEBUG    | scraper.parser | Product 14 parsed: MyGift Burnt Wood Bookends with Metal Industrial Pipe Design
+2026-07-29 00:02:08 | DEBUG    | scraper.parser | Product 15 parsed: 3 Pcs Mason Jar Centerpiece Table Decorations for Dining Tab
+2026-07-29 00:02:08 | DEBUG    | scraper.parser | Product 16 parsed: Floor Lamp with Shelves for Living Room, Shelf Floor Lamp wi
+2026-07-29 00:02:08 | DEBUG    | scraper.parser | Product 17 parsed: O’Bright Dimmable LED Pharmacy Floor Lamp, 12W LED, Full Ran
+2026-07-29 00:02:09 | DEBUG    | scraper.parser | Product 18 parsed: Auledio Iron 2-Tier Countertop Fruit Vegetables Basket Bowl 
+2026-07-29 00:02:09 | DEBUG    | scraper.parser | Product 19 parsed: ARO VATIKA 7 Chakra Crystal Tree of Life – Healing Stones fo
+2026-07-29 00:02:09 | DEBUG    | scraper.parser | Product 20 parsed: Bestie Gift for Women, Friend Gifts for Women, Unique Friend
+2026-07-29 00:02:09 | DEBUG    | scraper.parser | Product 21 parsed: Modern Farmhouse Boho Striped Throw Pillow Covers 18x18 inch
+2026-07-29 00:02:09 | DEBUG    | scraper.parser | Product 22 parsed: Custom Metal Campfire Outdoor Last Name Established Sign | C
+2026-07-29 00:02:09 | DEBUG    | scraper.parser | Product 23 parsed: WORLD WIN Floor Lamp, 61'' Smart RGB LED Corner Lamp with Mu
+2026-07-29 00:02:09 | DEBUG    | scraper.parser | Product 24 parsed: FEELEAD 7ft Faux Olive Tree with Natural Olive Branches & Re
+2026-07-29 00:02:09 | DEBUG    | scraper.parser | Product 25 parsed: Dimmable Floor Lamp, Industrial Floor Lamps for Living Room,
+2026-07-29 00:02:10 | DEBUG    | scraper.parser | Product 26 parsed: 33 Pack 3D Wall Panels Diamond, Black, 12''x12'' | PVC Accen
+2026-07-29 00:02:10 | DEBUG    | scraper.parser | Product 27 parsed: Sage Green Fleece Throw Blanket 50”×60” for Couch Sofa Livin
+2026-07-29 00:02:10 | DEBUG    | scraper.parser | Product 28 parsed: Black and White Striped Hand Towels for Bathroom, Vintage Ki
+2026-07-29 00:02:10 | DEBUG    | scraper.parser | Product 29 parsed: cotiled Boho 5x7 Area Rugs for Living Room: Soft Moroccan Wa
+2026-07-29 00:02:10 | DEBUG    | scraper.parser | Product 30 parsed: Sandstone Resin Thinker Statue Style Abstract Sculpture, San
+2026-07-29 00:02:10 | DEBUG    | scraper.parser | Product 31 parsed: L LOHAS LED Night Lights Plug into Wall 2 Pack, Dusk to Dawn
+2026-07-29 00:02:10 | DEBUG    | scraper.parser | Product 32 parsed: Pipishell Solid Wooden Coat Rack Freestanding, Hall Tree wit
+2026-07-29 00:02:10 | DEBUG    | scraper.parser | Product 33 parsed: Dosmix Retro Bluetooth Speaker,Vintage Decor,Small Gift for 
+2026-07-29 00:02:11 | DEBUG    | scraper.parser | Product 34 parsed: 7FT Olive Trees Artificial Indoor - Tall Faux Olive Tree 7 F
+2026-07-29 00:02:11 | DEBUG    | scraper.parser | Product 35 parsed: Auihiay 64Pcs Hydrangea Artificial Flowers Bulk, Silk White 
+2026-07-29 00:02:11 | DEBUG    | scraper.parser | Product 36 parsed: DOLLAR BOSS Double-Sided Bulletin Boards with Linen, 16"x12"
+2026-07-29 00:02:11 | DEBUG    | scraper.parser | Product 37 parsed: Outdoor Rugs, Black and White Area Rug Checkered 2’4’’x3’7’’
+2026-07-29 00:02:11 | DEBUG    | scraper.parser | Product 38 parsed: Homemate Washable Rug 8x10 Area Rugs - Vintage Rugs for Livi
+2026-07-29 00:02:11 | DEBUG    | scraper.parser | Product 39 parsed: upsimples 15" x 4" Acrylic Shelves for Wall Storage and Orga
+2026-07-29 00:02:12 | DEBUG    | scraper.parser | Product 40 parsed: Faux Olive Tree 7ft - Realistic Tall Olive Trees Artificial 
+2026-07-29 00:02:12 | DEBUG    | scraper.parser | Product 41 parsed: ROMGUAR CRAFT Corner Floating Shelves Wall Mounted Set of 4,
+2026-07-29 00:02:12 | DEBUG    | scraper.parser | Product 42 parsed: TideAndTales Blue Seashells and Starfish (Framed Set of 3) C
+2026-07-29 00:02:12 | DEBUG    | scraper.parser | Product 43 parsed: 8 ft Long Hallway Runner Rug - Boho Green Rug for Kitchen Fl
+2026-07-29 00:02:12 | DEBUG    | scraper.parser | Product 44 parsed: Lifelike Bird of Paradise Artificial Plant,6ft Faux Banana L
+2026-07-29 00:02:12 | DEBUG    | scraper.parser | Product 45 parsed: Olive Tree Olive Trees Artificial Indoor 6FT Faux Olive Tree
+2026-07-29 00:02:12 | DEBUG    | scraper.parser | Product 46 parsed: Cocorrína Reed Diffuser Sets, 6.7 fl oz. Black Forest Diffus
+2026-07-29 00:02:13 | DEBUG    | scraper.parser | Product 47 parsed: JARLINK Aesthetic Decorative Books, Set of 3 Linen Faux Book
+2026-07-29 00:02:13 | DEBUG    | scraper.parser | Product 48 parsed: Byondeth Curtain Rods for Windows 16 to 88 Inches Adjustable
+2026-07-29 00:02:13 | DEBUG    | scraper.parser | Product 49 parsed: Antok 71" x28” Arched Full Length Floor Mirror, Black Alumin
+2026-07-29 00:02:13 | DEBUG    | scraper.parser | Product 50 parsed: SUNMORY 6 Tier Tree Bookshelf, Tall Small Bookcase with Stor
+2026-07-29 00:02:13 | DEBUG    | scraper.parser | Product 51 parsed: Olive Green Ribbed Flameless Pillar Candles with Remote Set 
+2026-07-29 00:02:13 | DEBUG    | scraper.parser | Product 52 parsed: Candle Warmer Lamp with Timer Dimmer - Birthday Gift for Wom
+2026-07-29 00:02:14 | DEBUG    | scraper.parser | Product 53 parsed: Floor Lamp with Shelves, Modern Shelf Lamp for Display Stora
+2026-07-29 00:02:14 | DEBUG    | scraper.parser | Product 54 parsed: SEDETA 31.5" Lift Top Coffee Table with Storage, Square Coff
+2026-07-29 00:02:14 | DEBUG    | scraper.parser | Product 55 parsed: Aganear Fleece Throw Blanket - Cozy Soft Lightweight Fuzzy T
+2026-07-29 00:02:14 | DEBUG    | scraper.parser | Product 56 parsed: Fake Snake Plant 22" Tall, Realistic Touch Leaves, Potted Ar
+2026-07-29 00:02:14 | DEBUG    | scraper.parser | Product 57 parsed: Marycele Candle Warmer Lamp with Timer & Dimmer, Gifts for M
+2026-07-29 00:02:14 | DEBUG    | scraper.parser | Product 58 parsed: Wall Mirror Decorative 12 inch Rustic Wood Mirror Sunburst B
+2026-07-29 00:02:14 | DEBUG    | scraper.parser | Product 59 parsed: Ceramic Vase Set of 3 | Neutral Vase Home Decor with Handle 
+2026-07-29 00:02:15 | DEBUG    | scraper.parser | Product 60 parsed: UITWMKTG 5 Pack Animal Head Wall Decor Gold Wall Sculpture H
+2026-07-29 00:02:15 | INFO     | scraper.search | Page 4: Extracted 60 products (total: 240)
+2026-07-29 00:02:15 | DEBUG    | utils.resume | Progress saved: keyword='Home Decor', last_completed_page=4
+2026-07-29 00:02:15 | INFO     | scraper.search | ━━━ Scraping page 5 of 15 ━━━
+2026-07-29 00:02:15 | INFO     | scraper.search | Navigating to page 5: https://www.amazon.com/s?k=Home Decor&page=5
+2026-07-29 00:02:20 | DEBUG    | scraper.search | Page 5 loaded successfully.
+2026-07-29 00:02:20 | INFO     | scraper.parser | Found 60 product cards on the page.
+2026-07-29 00:02:20 | DEBUG    | scraper.parser | Product 1 parsed: I@U Gold Abstract Wall Art For Bedroom Minimalism Home Wall 
+2026-07-29 00:02:20 | DEBUG    | scraper.parser | Product 2 parsed: EVERGRACEHOME Chunky Chenille Knit Throw Blanket, 50 x 60, O
+2026-07-29 00:02:21 | DEBUG    | scraper.parser | Product 3 parsed: Personalized Family Stained Glass Sun Catcher, Custom Photo 
+2026-07-29 00:02:21 | DEBUG    | scraper.parser | Product 4 parsed: Abstract Face Ceramic Vases Set of 3, Modern Boho Flower Vas
+2026-07-29 00:02:21 | DEBUG    | scraper.parser | Product 5 parsed: Cocorrína Premium Reed Diffuser Set with Preserved Baby's Br
+2026-07-29 00:02:21 | DEBUG    | scraper.parser | Product 6 parsed: Valery Madelyn 6ft Fall Garland for Mantle with Pumpkins | L
+2026-07-29 00:02:21 | DEBUG    | scraper.parser | Product 7 parsed: Topfinel Fall Burnt Orange Decorative Throw Pillows Covers 1
+2026-07-29 00:02:21 | DEBUG    | scraper.parser | Product 8 parsed: MSGKV Boho Throw Blanket 60"x80" 100% Cotton for Couch Bed, 
+2026-07-29 00:02:22 | DEBUG    | scraper.parser | Product 9 parsed: Reaketon 20" Modern Ceramic Table Lamps for Bedroom Set of 2
+2026-07-29 00:02:22 | DEBUG    | scraper.parser | Product 10 parsed: Wooden Halloween Decor Small Halloween Signs Indoor Decor Bl
+2026-07-29 00:02:22 | DEBUG    | scraper.parser | Product 11 parsed: Personalized Heart Plaque Custom Name Sea Glass Birds Tree o
+2026-07-29 00:02:22 | DEBUG    | scraper.parser | Product 12 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:02:22 | DEBUG    | scraper.parser | Product 13 parsed: Funny Dog Bathroom Decor for Guest Bathroom Restroom Shelf –
+2026-07-29 00:02:22 | DEBUG    | scraper.parser | Product 14 parsed: Home Shelf Decor, Blue Bird Statue
+2026-07-29 00:02:22 | DEBUG    | scraper.parser | Product 15 parsed: Shower Caddy Adhesive, Rustproof Shower Organizer with Soap 
+2026-07-29 00:02:23 | DEBUG    | scraper.parser | Product 16 parsed: Gooamp 200ML Ceramic Essential Oil Diffuser for Home, Stone 
+2026-07-29 00:02:23 | DEBUG    | scraper.parser | Product 17 parsed: QEEIG Floating Shelves for Wall Bathroom Shelf Bedroom Kitch
+2026-07-29 00:02:23 | DEBUG    | scraper.parser | Product 18 parsed: SUPERJARE Rattan Console Sofa Table with Outlets and USB-C P
+2026-07-29 00:02:23 | DEBUG    | scraper.parser | Product 19 parsed: MyGift Burnt Wood Bookends with Metal Industrial Pipe Design
+2026-07-29 00:02:23 | DEBUG    | scraper.parser | Product 20 parsed: ARO VATIKA 7 Chakra Crystal Tree of Life – Healing Stones fo
+2026-07-29 00:02:23 | DEBUG    | scraper.parser | Product 21 parsed: Jexine 2 Pieces Faux Plants Outdoor 4 ft Tall Artificial Gra
+2026-07-29 00:02:24 | DEBUG    | scraper.parser | Product 22 parsed: Bestie Gift for Women, Friend Gifts for Women, Unique Friend
+2026-07-29 00:02:24 | DEBUG    | scraper.parser | Product 23 parsed: Art3d 108 x 12 Inch 3D Fluted Soundproof Wood Slat Wall Pane
+2026-07-29 00:02:24 | DEBUG    | scraper.parser | Product 24 parsed: RICHER HOUSE 5-Set Floating Shelves with Lip, Black Wall Mou
+2026-07-29 00:02:24 | DEBUG    | scraper.parser | Product 25 parsed: uscce Wooden Digital Alarm Clocks for Bedrooms with 0-100% D
+2026-07-29 00:02:24 | DEBUG    | scraper.parser | Product 26 parsed: VIVATREES 6FT Fiddle Leaf Fig Artificial Tree with White Pla
+2026-07-29 00:02:24 | DEBUG    | scraper.parser | Product 27 parsed: Qukaka Floating Shelves for Wall Decor, 15" Extra Clear Wall
+2026-07-29 00:02:25 | DEBUG    | scraper.parser | Product 28 parsed: Tsrarey Sunset Lamp Projector,180 Degree Rotation Sun Projec
+2026-07-29 00:02:25 | DEBUG    | scraper.parser | Product 29 parsed: Wild Mint & Eucalyptus Reed Diffuser, 6.76 oz | Real Dried E
+2026-07-29 00:02:25 | DEBUG    | scraper.parser | Product 30 parsed: Artificial Fall Fake Flowers for Outdoor Decor,4 Pcs UV Resi
+2026-07-29 00:02:25 | DEBUG    | scraper.parser | Product 31 parsed: KAKAMAY Large Blanket Basket with Handles, Storage Basket fo
+2026-07-29 00:02:25 | DEBUG    | scraper.parser | Product 32 parsed: 2-in-1 Upside Down Incense Holder with Storage, Anti-Ash Fly
+2026-07-29 00:02:25 | DEBUG    | scraper.parser | Product 33 parsed: ZICOTO Decorative Storage Boxes with Lids – Set of 2 Beautif
+2026-07-29 00:02:25 | DEBUG    | scraper.parser | Product 34 parsed: Mandy's 20pcs Artificial White Tulips | 13.5 Inch Lifelike P
+2026-07-29 00:02:26 | DEBUG    | scraper.parser | Product 35 parsed: Vanselia Ceramic Vase Home Table Decor - Flower Vases Set of
+2026-07-29 00:02:26 | DEBUG    | scraper.parser | Product 36 parsed: 6PCS Gold Taper Candle Holders - Vintage Metal Candlestick H
+2026-07-29 00:02:26 | DEBUG    | scraper.parser | Product 37 parsed: kondyfayo 360° Rotating Sunglass Organizer Storage, Stainles
+2026-07-29 00:02:26 | DEBUG    | scraper.parser | Product 38 parsed: White Ceramic Vase - Large 10.8 Inch Round Floor Vase for Ce
+2026-07-29 00:02:26 | DEBUG    | scraper.parser | Product 39 parsed: Olive Tree 6FT Fake Tree Faux Plants Indoor with Pot Artific
+2026-07-29 00:02:26 | DEBUG    | scraper.parser | Product 40 parsed: Book Cutting Board Set, Acacia Wooden Cutting Boards for Kit
+2026-07-29 00:02:27 | DEBUG    | scraper.parser | Product 41 parsed: 6 Tier Corner Shelf with LED Light, 67.5" Corner Narrow Book
+2026-07-29 00:02:27 | DEBUG    | scraper.parser | Product 42 parsed: Arc Floor Lamp with Remote and Stepless Dimmable Bulb, Color
+2026-07-29 00:02:27 | DEBUG    | scraper.parser | Product 43 parsed: BOBOMOMO 64.25" Rustic Floor Lamp for Living Room, Tall Anti
+2026-07-29 00:02:27 | DEBUG    | scraper.parser | Product 44 parsed: Art3d 2 Wood Slat Acoustic Panels for Wall and Ceiling - 3D 
+2026-07-29 00:02:27 | DEBUG    | scraper.parser | Product 45 parsed: KitchenTour Dishwasher Magnet Clean Dirty Sign, Premium Stai
+2026-07-29 00:02:27 | DEBUG    | scraper.parser | Product 46 parsed: Night Light, Sliver Night Lights Plug into Wall LED Projecto
+2026-07-29 00:02:27 | DEBUG    | scraper.parser | Product 47 parsed: DreamSky Wooden Digital Alarm Clock for Bedrooms Desk with L
+2026-07-29 00:02:28 | DEBUG    | scraper.parser | Product 48 parsed: BALTIC DAY Pastel Pigment Paste for Epoxy Resin, 24 Colors, 
+2026-07-29 00:02:28 | DEBUG    | scraper.parser | Product 49 parsed: Lexuvo Pearl Art Kits for Adults,Halloween Pearl Art Kit,Cut
+2026-07-29 00:02:28 | DEBUG    | scraper.parser | Product 50 parsed: Elegant Cast Iron Bird Statue with Vintage Brass Coating – G
+2026-07-29 00:02:28 | DEBUG    | scraper.parser | Product 51 parsed: Ceramic Vase Set of 3, Decorative Nordic Minimalist Vases Ho
+2026-07-29 00:02:28 | DEBUG    | scraper.parser | Product 52 parsed: Govee Smart RGB LED Strip Lights 16.4ft, Work with Alexa, Go
+2026-07-29 00:02:28 | DEBUG    | scraper.parser | Product 53 parsed: Nimiko Flameless Candles with Remote, Battery Operated Flick
+2026-07-29 00:02:29 | DEBUG    | scraper.parser | Product 54 parsed: Ceramic Vase Home Table Decor - Flower Vase Set of 3 Living 
+2026-07-29 00:02:29 | DEBUG    | scraper.parser | Product 55 parsed: Floating Shelves for Wall,Hanging Shelves,Room Decor,Wall De
+2026-07-29 00:02:29 | DEBUG    | scraper.parser | Product 56 parsed: 24 Inch Natural Jute Wall Mirror with Shatter-Resistant Mirr
+2026-07-29 00:02:29 | DEBUG    | scraper.parser | Product 57 parsed: Artificial Palm Tree 6ft Tall Fake Palm Tree Indoor Decor wi
+2026-07-29 00:02:29 | DEBUG    | scraper.parser | Product 58 parsed: Beige 8x10 Area Rugs for Living Room, Fluffy Shag Rug Large 
+2026-07-29 00:02:30 | DEBUG    | scraper.parser | Product 59 parsed: Fixwal Conner Floating Shelves for Wall Decor, Dark Carboniz
+2026-07-29 00:02:30 | DEBUG    | scraper.parser | Product 60 parsed: 2Pcs 17" Artificial Fall Snowball Topiary Trees for Front Po
+2026-07-29 00:02:30 | INFO     | scraper.search | Page 5: Extracted 60 products (total: 300)
+2026-07-29 00:02:30 | DEBUG    | utils.resume | Progress saved: keyword='Home Decor', last_completed_page=5
+2026-07-29 00:02:30 | INFO     | scraper.search | ━━━ Scraping page 6 of 15 ━━━
+2026-07-29 00:02:30 | INFO     | scraper.search | Navigating to page 6: https://www.amazon.com/s?k=Home Decor&page=6
+2026-07-29 00:02:35 | DEBUG    | scraper.search | Page 6 loaded successfully.
+2026-07-29 00:02:35 | INFO     | scraper.parser | Found 60 product cards on the page.
+2026-07-29 00:02:35 | DEBUG    | scraper.parser | Product 1 parsed: I@U Gold Abstract Wall Art For Bedroom Minimalism Home Wall 
+2026-07-29 00:02:35 | DEBUG    | scraper.parser | Product 2 parsed: Personalized Family Stained Glass Sun Catcher, Custom Photo 
+2026-07-29 00:02:35 | DEBUG    | scraper.parser | Product 3 parsed: EVERGRACEHOME Chunky Chenille Knit Throw Blanket, 50 x 60, O
+2026-07-29 00:02:36 | DEBUG    | scraper.parser | Product 4 parsed: Framed Watercolor Bird Wall Art Set of 4, Winter Birds Colle
+2026-07-29 00:02:36 | DEBUG    | scraper.parser | Product 5 parsed: FLOWORLD 6FT Olive Trees Artificial Indoor, Tall Fake Olive 
+2026-07-29 00:02:36 | DEBUG    | scraper.parser | Product 6 parsed: RESARE Waffle Bathroom Runner Rugs, Non Slip Boho Bath Mat 2
+2026-07-29 00:02:36 | DEBUG    | scraper.parser | Product 7 parsed: RICHER HOUSE Hanging Floating Shelves No Drill, Macrame Plan
+2026-07-29 00:02:36 | DEBUG    | scraper.parser | Product 8 parsed: Artificial Dracaena Tree: 6FT Fake Plants Silk Faux Trees（Bl
+2026-07-29 00:02:36 | DEBUG    | scraper.parser | Product 9 parsed: DIY Christmas Pearl Diamond Painting Art Kit with Frame, 3D 
+2026-07-29 00:02:37 | DEBUG    | scraper.parser | Product 10 parsed: Mushroom Lamp Table Lamp for Bedroom,Desk Bedside Small Lamp
+2026-07-29 00:02:37 | DEBUG    | scraper.parser | Product 11 parsed: Washable Area Rug 2x3 Entryway Rug, Modern Abstract Small En
+2026-07-29 00:02:37 | DEBUG    | scraper.parser | Product 12 parsed: Personalized Heart Plaque Custom Name Sea Glass Birds Tree o
+2026-07-29 00:02:37 | DEBUG    | scraper.parser | Product 13 parsed: Funny Dog Bathroom Decor for Guest Bathroom Restroom Shelf –
+2026-07-29 00:02:37 | DEBUG    | scraper.parser | Product 14 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:02:37 | DEBUG    | scraper.parser | Product 15 parsed: DUKINO 2x3 Rug, Floral Washable Rug for Entryway Non Slip Do
+2026-07-29 00:02:38 | DEBUG    | scraper.parser | Product 16 parsed: Stained Glass Window Hanging, Vintage Bee Yellow Flower Sun 
+2026-07-29 00:02:38 | DEBUG    | scraper.parser | Product 17 parsed: Magnetic Desk Goose Key Holder, 7.28 in Funny Home Desktop D
+2026-07-29 00:02:38 | DEBUG    | scraper.parser | Product 18 parsed: Artificial Potted Plants, Realistic Fake Fiddle Leaf Fig and
+2026-07-29 00:02:38 | DEBUG    | scraper.parser | Product 19 parsed: Family Wood Signs for Home Decor in Grey Teal White Multicol
+2026-07-29 00:02:38 | DEBUG    | scraper.parser | Product 20 parsed: MyGift Burnt Wood Bookends with Metal Industrial Pipe Design
+2026-07-29 00:02:38 | DEBUG    | scraper.parser | Product 21 parsed: Home Shelf Decor, Blue Bird Statue
+2026-07-29 00:02:39 | DEBUG    | scraper.parser | Product 22 parsed: Battery Operated Table Lamp Timer, Small Cordless Lamps Deco
+2026-07-29 00:02:39 | DEBUG    | scraper.parser | Product 23 parsed: eletecpro Picture Frames Set of 9, 12x12 in, Acrylic Cover, 
+2026-07-29 00:02:39 | DEBUG    | scraper.parser | Product 24 parsed: LE TAUCI Utensil Holder for Kitchen Counter, 7.3"+5.4" Flute
+2026-07-29 00:02:39 | DEBUG    | scraper.parser | Product 25 parsed: KESPEN Window Privacy Film One Way Daytime Privacy Static Cl
+2026-07-29 00:02:39 | DEBUG    | scraper.parser | Product 26 parsed: One Fire Galaxy Projector,15 Color,Ocean HD,Gift Girl&Women&
+2026-07-29 00:02:39 | DEBUG    | scraper.parser | Product 27 parsed: RELEANY Washable Area Rug, 8'x10', Brick/Brown/Green | Non-S
+2026-07-29 00:02:39 | DEBUG    | scraper.parser | Product 28 parsed: Dobbyby Ceramic Vase Set of 3 Neutral Decorative Vase for Fa
+2026-07-29 00:02:40 | DEBUG    | scraper.parser | Product 29 parsed: Battery Operated Wall Sconce Set of 2,Gold Rechargeable Wall
+2026-07-29 00:02:40 | DEBUG    | scraper.parser | Product 30 parsed: CULTURE & NATURE Reed Diffuser Set 6.7oz (200ml) Clean Cotto
+2026-07-29 00:02:40 | DEBUG    | scraper.parser | Product 31 parsed: NESOMI 7-Pack Shower Caddy Adhesive,Stainless Steel Shower O
+2026-07-29 00:02:40 | DEBUG    | scraper.parser | Product 32 parsed: 60" Modern Floor Lamp with Beige Shade, 9W LED Bulb | 3 Colo
+2026-07-29 00:02:40 | DEBUG    | scraper.parser | Product 33 parsed: Asymmetrical Mirror, Irregular Wall Mirror, Wall Mirrors Dec
+2026-07-29 00:02:40 | DEBUG    | scraper.parser | Product 34 parsed: Bedsure GentleSoft 100% Cotton Blanket Queen Size for Bed - 
+2026-07-29 00:02:41 | DEBUG    | scraper.parser | Product 35 parsed: Striped Outdoor Front Door Mat 24"x51" Rug for Entry Porch E
+2026-07-29 00:02:41 | DEBUG    | scraper.parser | Product 36 parsed: Ceramic Vase Set of 3 with Handles, Green White Neutral Rust
+2026-07-29 00:02:41 | DEBUG    | scraper.parser | Product 37 parsed: MIULEE Soft Decorative Chenille Pillow Covers Neutral 18x18 
+2026-07-29 00:02:41 | DEBUG    | scraper.parser | Product 38 parsed: 20'' Eucalyptus Wreath for Front Door, Porch, Window - Green
+2026-07-29 00:02:41 | DEBUG    | scraper.parser | Product 39 parsed: RELEANY Washable 5'x7' Abstract Area Rug for Living Room Bla
+2026-07-29 00:02:41 | DEBUG    | scraper.parser | Product 40 parsed: Faux Eucalyptus Garland Plant, 2 Pack Artificial Vines Hangi
+2026-07-29 00:02:42 | DEBUG    | scraper.parser | Product 41 parsed: Faux Olive Tree 7ft with Thick Lifelike Branches, Realistic 
+2026-07-29 00:02:42 | DEBUG    | scraper.parser | Product 42 parsed: Modern Clear Coasters Set of 5- Glass Cute Coasters for Drin
+2026-07-29 00:02:42 | DEBUG    | scraper.parser | Product 43 parsed: Wooden Arch Decor Set of 3, Acacia Wood Modern Decorative Ho
+2026-07-29 00:02:42 | DEBUG    | scraper.parser | Product 44 parsed: camuucci Battery Operated Wall Sconces Set of 2, Rechargeabl
+2026-07-29 00:02:42 | DEBUG    | scraper.parser | Product 45 parsed: MIULEE Beige Scalloped Shower Curtain Linen Textured with 12
+2026-07-29 00:02:42 | DEBUG    | scraper.parser | Product 46 parsed: VOLIVO 100FT LED Strip Lights for Bedroom RGB Color Changing
+2026-07-29 00:02:42 | DEBUG    | scraper.parser | Product 47 parsed: Fultyle Round Side Table, Small Drink Table for Small Spaces
+2026-07-29 00:02:43 | DEBUG    | scraper.parser | Product 48 parsed: Gothic Crow Lamp with Tealight Candle Holder Resin Raven Dec
+2026-07-29 00:02:43 | DEBUG    | scraper.parser | Product 49 parsed: upsimples 10 Pack Picture Frames Collage Wall Decor for Moun
+2026-07-29 00:02:43 | DEBUG    | scraper.parser | Product 50 parsed: Candle Warmer Lamp Flower Electric Timer - Home Decor Women 
+2026-07-29 00:02:43 | DEBUG    | scraper.parser | Product 51 parsed: Height Adjustable Candle Warmer Lamp with Timer, 3 Dimmable 
+2026-07-29 00:02:43 | DEBUG    | scraper.parser | Product 52 parsed: Shario Nursery Book Shelves, 4-Pack White Floating Shelves f
+2026-07-29 00:02:43 | DEBUG    | scraper.parser | Product 53 parsed: 5FT Artificial Fiddle Leaf Fig Tree with White Planter & Fak
+2026-07-29 00:02:44 | DEBUG    | scraper.parser | Product 54 parsed: Quoowiit Gold Decor Thinker Statue Decor Book Shelf Decor, A
+2026-07-29 00:02:44 | DEBUG    | scraper.parser | Product 55 parsed: kakoya Flameless LED Candles with Timer 5 Pc Flickering Flam
+2026-07-29 00:02:44 | DEBUG    | scraper.parser | Product 56 parsed: Modern Floor Lamp Simple Design with White Shade & Foot Peda
+2026-07-29 00:02:44 | DEBUG    | scraper.parser | Product 57 parsed: MIULEE Decorative Linen Pillow Covers 18x18 Inch Natural Bei
+2026-07-29 00:02:44 | DEBUG    | scraper.parser | Product 58 parsed: JARLINK Decorative Books, Set of 3 Stackable Fake Book Stora
+2026-07-29 00:02:44 | DEBUG    | scraper.parser | Product 59 parsed: 59"x16" Floor Mirror Full Length, Arched Full Length Mirror 
+2026-07-29 00:02:45 | DEBUG    | scraper.parser | Product 60 parsed: aooshine Small Bedside Table Lamp for Bedroom - Square Cream
+2026-07-29 00:02:45 | INFO     | scraper.search | Page 6: Extracted 60 products (total: 360)
+2026-07-29 00:02:45 | DEBUG    | utils.resume | Progress saved: keyword='Home Decor', last_completed_page=6
+2026-07-29 00:02:45 | INFO     | scraper.search | ━━━ Scraping page 7 of 15 ━━━
+2026-07-29 00:02:45 | INFO     | scraper.search | Navigating to page 7: https://www.amazon.com/s?k=Home Decor&page=7
+2026-07-29 00:02:49 | DEBUG    | scraper.search | Page 7 loaded successfully.
+2026-07-29 00:02:49 | INFO     | scraper.parser | Found 30 product cards on the page.
+2026-07-29 00:02:49 | DEBUG    | scraper.parser | Product 1 parsed: I@U Gold Abstract Wall Art For Bedroom Minimalism Home Wall 
+2026-07-29 00:02:49 | DEBUG    | scraper.parser | Product 2 parsed: Night Light, Night Lights Plug into Wall, Adjustable, 3000K 
+2026-07-29 00:02:49 | DEBUG    | scraper.parser | Product 3 parsed: Personalized Heart Plaque Custom Name Sea Glass Birds Tree o
+2026-07-29 00:02:49 | DEBUG    | scraper.parser | Product 4 parsed: Personalized Family Stained Glass Sun Catcher, Custom Photo 
+2026-07-29 00:02:50 | DEBUG    | scraper.parser | Product 5 parsed: XUANLUO 5x7 Picture Frames Set of 4 Rustic Retro Photo Frame
+2026-07-29 00:02:50 | DEBUG    | scraper.parser | Product 6 parsed: Der Rose 4 Pack Small Fake Plants with Flowers, Spring Home 
+2026-07-29 00:02:50 | DEBUG    | scraper.parser | Product 7 parsed: Floating Shelves for Bedside Shelf, Stick On Accessories Org
+2026-07-29 00:02:50 | DEBUG    | scraper.parser | Product 8 parsed: GIGALUMI 6 Pack Solar Lights Outdoor Waterproof, LED Solar G
+2026-07-29 00:02:50 | DEBUG    | scraper.parser | Product 9 parsed: LANE LINEN 4 Pack 18x18 White Throw Pillow Inserts for Decor
+2026-07-29 00:02:50 | DEBUG    | scraper.parser | Product 10 parsed: Rustic Farmhouse Lantern Decor Set of 2 - Stylish Decorative
+2026-07-29 00:02:50 | DEBUG    | scraper.parser | Product 11 parsed: Funny Dog Bathroom Decor for Guest Bathroom Restroom Shelf –
+2026-07-29 00:02:50 | DEBUG    | scraper.parser | Product 12 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 13 parsed: JKIMK Solar Globe Lights Outdoor Waterproof-Solar Balls for 
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 14 parsed: MyGift Burnt Wood Bookends with Metal Industrial Pipe Design
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 15 parsed: Large Metal Wall Clock, 20 Inch Retro Decorative Silent, Non
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 16 parsed: SANDCLE Moving Sand Art Picture - Sand Art Liquid Motion 3D 
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 17 parsed: Over the Door Organizer, 6-Shelf Closet Hanging Storage with
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 18 parsed: Black Olive Tree 7ft with Natural Trunk and Realistic Leaves
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 19 parsed: Home Shelf Decor, Blue Bird Statue
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 20 parsed: Battery Operated Table Lamp Timer, Small Cordless Lamps Deco
+2026-07-29 00:02:51 | DEBUG    | scraper.parser | Product 21 parsed: Abstract Face Ceramic Vases Set of 3, Modern Boho Flower Vas
+2026-07-29 00:02:52 | DEBUG    | scraper.parser | Product 22 parsed: Fiqevs 3 Globe Floor Lamp Mid Century Modern, Gold Standing 
+2026-07-29 00:02:52 | DEBUG    | scraper.parser | Product 23 parsed: 10"×10" Felt Letter Board with LED Lights & Stand, First Day
+2026-07-29 00:02:52 | DEBUG    | scraper.parser | Product 24 parsed: SRIWATANA White Floating Shelves, Set of 5 Solid Wood Wall M
+2026-07-29 00:02:52 | DEBUG    | scraper.parser | Product 25 parsed: Candle Warmer Lamp with Timer Dimmable, Lamp Candle Warmer B
+2026-07-29 00:02:52 | DEBUG    | scraper.parser | Product 26 parsed: HEBE Boho Kitchen Rugs Set of 3, Non Slip Washable Kitchen M
+2026-07-29 00:02:52 | DEBUG    | scraper.parser | Product 27 parsed: LEPOWER Tripod Floor Lamp Mid Century Modern Standing Lamps 
+2026-07-29 00:02:52 | DEBUG    | scraper.parser | Product 28 parsed: Outdoor String Lights, 55(50+5) FT 25 Bulbs IP65 Waterproof 
+2026-07-29 00:02:53 | DEBUG    | scraper.parser | Product 29 parsed: CHAMPLANT Area Rug 8x10 Washable Rug Brown Vintage Tradition
+2026-07-29 00:02:53 | DEBUG    | scraper.parser | Product 30 parsed: Dnnnii Vintage Glass Farmhouse Vase - Handmade Rustic Lanter
+2026-07-29 00:02:53 | INFO     | scraper.search | Page 7: Extracted 30 products (total: 390)
+2026-07-29 00:02:53 | DEBUG    | utils.resume | Progress saved: keyword='Home Decor', last_completed_page=7
+2026-07-29 00:02:53 | INFO     | scraper.search | ━━━ Scraping page 8 of 15 ━━━
+2026-07-29 00:02:53 | INFO     | scraper.search | Navigating to page 8: https://www.amazon.com/s?k=Home Decor&page=8
+2026-07-29 00:02:57 | DEBUG    | scraper.search | Page 8 loaded successfully.
+2026-07-29 00:02:57 | INFO     | scraper.parser | Found 12 product cards on the page.
+2026-07-29 00:02:57 | DEBUG    | scraper.parser | Product 1 parsed: Reed Diffuser Set of 6, 10.2oz Scented Oil Diffuser with Sti
+2026-07-29 00:02:58 | DEBUG    | scraper.parser | Product 2 parsed: Stein Premium Scandinavian Indoor & Outdoor Doormat – Design
+2026-07-29 00:02:58 | DEBUG    | scraper.parser | Product 3 parsed: Stein Premium Scandinavian Indoor & Outdoor Doormat – Design
+2026-07-29 00:02:58 | DEBUG    | scraper.parser | Product 4 parsed: 79'' Long Reclining Chaise Lounge Set (Set of 2), Outdoor Wi
+2026-07-29 00:02:58 | DEBUG    | scraper.parser | Product 5 parsed: Personalized Family Stained Glass Sun Catcher, Custom Photo 
+2026-07-29 00:02:58 | DEBUG    | scraper.parser | Product 6 parsed: Funny Dog Bathroom Decor for Guest Bathroom Restroom Shelf –
+2026-07-29 00:02:58 | DEBUG    | scraper.parser | Product 7 parsed: Personalized Heart Plaque Custom Name Sea Glass Birds Tree o
+2026-07-29 00:02:58 | DEBUG    | scraper.parser | Product 8 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:02:58 | DEBUG    | scraper.parser | Product 9 parsed: Bestie Gift for Women, Friend Gifts for Women, Unique Friend
+2026-07-29 00:02:59 | DEBUG    | scraper.parser | Product 10 parsed: Home Shelf Decor, Blue Bird Statue
+2026-07-29 00:02:59 | DEBUG    | scraper.parser | Product 11 parsed: MyGift Burnt Wood Bookends with Metal Industrial Pipe Design
+2026-07-29 00:02:59 | DEBUG    | scraper.parser | Product 12 parsed: Artificial Fall Flowers for Outdoors, 18 Pcs Fake Mums Fall 
+2026-07-29 00:02:59 | INFO     | scraper.search | Page 8: Extracted 12 products (total: 402)
+2026-07-29 00:02:59 | DEBUG    | utils.resume | Progress saved: keyword='Home Decor', last_completed_page=8
+2026-07-29 00:02:59 | INFO     | scraper.search | ━━━ Scraping page 9 of 15 ━━━
+2026-07-29 00:02:59 | INFO     | scraper.search | Navigating to page 9: https://www.amazon.com/s?k=Home Decor&page=9
+2026-07-29 00:03:03 | DEBUG    | scraper.search | Page 9 loaded successfully.
+2026-07-29 00:03:03 | INFO     | scraper.parser | Found 12 product cards on the page.
+2026-07-29 00:03:03 | DEBUG    | scraper.parser | Product 1 parsed: Reed Diffuser Set of 6, 10.2oz Scented Oil Diffuser with Sti
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 2 parsed: Stein Premium Scandinavian Indoor & Outdoor Doormat – Design
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 3 parsed: Stein Premium Scandinavian Indoor & Outdoor Doormat – Design
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 4 parsed: 79'' Long Reclining Chaise Lounge Set (Set of 2), Outdoor Wi
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 5 parsed: Personalized Family Stained Glass Sun Catcher, Custom Photo 
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 6 parsed: Funny Dog Bathroom Decor for Guest Bathroom Restroom Shelf –
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 7 parsed: Personalized Heart Plaque Custom Name Sea Glass Birds Tree o
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 8 parsed: Small Fake Plants, 4 Pack Artificial Plants in Handwoven Sea
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 9 parsed: Bestie Gift for Women, Friend Gifts for Women, Unique Friend
+2026-07-29 00:03:04 | DEBUG    | scraper.parser | Product 10 parsed: Home Shelf Decor, Blue Bird Statue
+2026-07-29 00:03:05 | DEBUG    | scraper.parser | Product 11 parsed: Artificial Fall Flowers for Outdoors, 18 Pcs Fake Mums Fall 
+2026-07-29 00:03:05 | DEBUG    | scraper.parser | Product 12 parsed: MyGift Burnt Wood Bookends with Metal Industrial Pipe Design
+2026-07-29 00:03:05 | WARNING  | scraper.search | Page 9: Found the exact same products as the previous page. Amazon has no more unique results. Stopping.
+2026-07-29 00:03:05 | INFO     | scraper.search | Scraping complete. Total products extracted: 402
+2026-07-29 00:03:05 | INFO     | __main__ | Scraping finished: 402 products extracted.
+2026-07-29 00:03:05 | INFO     | filters.product_filter | No filters applied. All 402 products kept.
+2026-07-29 00:03:05 | INFO     | exporters.csv_exporter | CSV export complete: 402 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.csv'
+2026-07-29 00:03:05 | INFO     | exporters.json_exporter | JSON export complete: 402 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.json'
+2026-07-29 00:03:05 | INFO     | exporters.sqlite_exporter | SQLite export complete: 402 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.db' (0 skipped — no ASIN)
+2026-07-29 00:03:05 | DEBUG    | utils.resume | Progress file cleared.
+2026-07-29 00:03:05 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-29 00:03:05 | INFO     | __main__ | SCRAPE SUMMARY
+2026-07-29 00:03:05 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-29 00:03:05 | INFO     | __main__ | Keyword:          Home Decor
+2026-07-29 00:03:05 | INFO     | __main__ | Pages scraped:    15
+2026-07-29 00:03:05 | INFO     | __main__ | Products found:   402
+2026-07-29 00:03:05 | INFO     | __main__ | After filtering:  402
+2026-07-29 00:03:05 | INFO     | __main__ | Time elapsed:     141.5 seconds
+2026-07-29 00:03:05 | INFO     | __main__ | CSV output:       E:\Anas\internship\Week3\Amazon_Automation\output\results.csv
+2026-07-29 00:03:05 | INFO     | __main__ | JSON output:      E:\Anas\internship\Week3\Amazon_Automation\output\results.json
+2026-07-29 00:03:05 | INFO     | __main__ | SQLite output:    E:\Anas\internship\Week3\Amazon_Automation\output\results.db
+2026-07-29 00:03:05 | INFO     | __main__ | ============================================================
+2026-07-29 00:03:05 | INFO     | __main__ | Scraping completed successfully!
+2026-07-29 00:03:05 | INFO     | __main__ | ============================================================
+2026-07-29 00:03:07 | INFO     | scraper.driver | Chrome WebDriver closed successfully.

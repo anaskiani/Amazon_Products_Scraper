@@ -230,8 +230,8 @@ def main() -> None:
         json_path: str = str(OUTPUT_DIR / JSON_FILE_NAME)
         sqlite_path: str = str(OUTPUT_DIR / SQLITE_DB_NAME)
 
-        export_to_csv(filtered_products, csv_path)
-        export_to_json(filtered_products, json_path)
+        export_to_csv(filtered_products, csv_path, resume=args.resume)
+        export_to_json(filtered_products, json_path, resume=args.resume)
         export_to_sqlite(filtered_products, sqlite_path)
 
         # Clear resume state after a complete successful scrape

@@ -19,7 +19,7 @@ from utils.logger import setup_logger
 logger = setup_logger(__name__)
 
 
-def export_to_json(products: list[Product], filepath: str) -> None:
+def export_to_json(products: list[Product], filepath: str, resume: bool = False) -> None:
     """Export product data to a JSON file.
 
     Creates the output directory if it doesn't exist. The output
@@ -42,6 +42,16 @@ def export_to_json(products: list[Product], filepath: str) -> None:
         products_data: list[dict] = [
             product.to_dict() for product in products
         ]
+
+        if resume and output_path.exists():
+            try:
+                with open(output_path, mode="r", encoding="utf-8") as existing_file:
+                    existing_data = json.load(existing_file)
+                    if isinstance(existing_data, list):
+                        existing_data.extend(products_data)
+                        products_data = existing_data
+            except Exception as e:
+                logger.warning("Could not load existing JSON to append: %s", str(e))
 
         with open(
             output_path,

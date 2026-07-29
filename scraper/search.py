@@ -245,7 +245,7 @@ def search_amazon(
         A list of Product objects extracted from all scraped pages.
     """
     all_products: list[Product] = []
-    end_page: int = start_page + num_pages - 1
+    end_page: int = num_pages
     last_page_asins: set[str] = set()
 
     logger.info(
@@ -254,6 +254,17 @@ def search_amazon(
         start_page,
         end_page,
     )
+
+    # ── Session & Location Initialization ──
+    if zipcode:
+        # Setting the delivery location visits the homepage and establishes a session
+        set_delivery_location(driver, zipcode)
+    elif start_page > 1:
+        # If resuming without a zipcode, we must still visit the homepage first
+        # to establish cookies. Direct linking to page 3 without cookies triggers a CAPTCHA.
+        logger.info("Resuming scrape. Establishing session on homepage...")
+        driver.get(BASE_URL)
+        time.sleep(random.uniform(MIN_DELAY, MAX_DELAY))
 
     for page in range(start_page, end_page + 1):
         logger.info(
@@ -266,10 +277,6 @@ def search_amazon(
             # Page 1 (and it's the first page we're scraping):
             # use the search bar for a more natural interaction
             if page == 1 and start_page == 1:
-                # Set location if a zipcode is provided
-                if zipcode:
-                    set_delivery_location(driver, zipcode)
-                    
                 perform_initial_search(driver, keyword)
             else:
                 # Pages 2+ (or resuming from a later page):
