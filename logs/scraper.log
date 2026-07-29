@@ -6686,3 +6686,180 @@ Stacktrace:
 2026-07-28 23:33:57 | INFO     | __main__ | Scraping completed successfully!
 2026-07-28 23:33:57 | INFO     | __main__ | ============================================================
 2026-07-28 23:34:00 | INFO     | scraper.driver | Chrome WebDriver closed successfully.
+2026-07-28 23:39:24 | INFO     | __main__ | ============================================================
+2026-07-28 23:39:24 | INFO     | __main__ | Amazon Product Search Scraper — Starting
+2026-07-28 23:39:24 | INFO     | __main__ | ============================================================
+2026-07-28 23:39:24 | INFO     | __main__ | Keyword:    oneplus cases
+2026-07-28 23:39:24 | INFO     | __main__ | Pages:      5
+2026-07-28 23:39:24 | INFO     | __main__ | Headless:   True
+2026-07-28 23:39:24 | INFO     | __main__ | Resume:     False
+2026-07-28 23:39:24 | INFO     | __main__ | Location:   Zip Code 10001
+2026-07-28 23:39:24 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:39:24 | INFO     | scraper.driver | Initializing Chrome WebDriver (headless=True)...
+2026-07-28 23:39:31 | INFO     | scraper.driver | Chrome WebDriver initialized successfully.
+2026-07-28 23:39:31 | INFO     | scraper.search | Starting scrape: keyword='oneplus cases', pages 1 to 5
+2026-07-28 23:39:31 | INFO     | scraper.search | ━━━ Scraping page 1 of 5 ━━━
+2026-07-28 23:39:31 | INFO     | scraper.search | Setting delivery location to zipcode: 10001
+2026-07-28 23:39:43 | INFO     | scraper.search | Delivery location successfully updated.
+2026-07-28 23:39:43 | INFO     | scraper.search | Navigating to Amazon homepage...
+2026-07-28 23:39:45 | DEBUG    | scraper.search | Search input found. Typing keyword: 'oneplus cases'
+2026-07-28 23:39:52 | INFO     | scraper.search | Search submitted for keyword: 'oneplus cases'
+2026-07-28 23:39:53 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:39:53 | DEBUG    | scraper.parser | Product 1 parsed: Silicone Case for OnePlus 13, Green | Soft Silicone Silky To
+2026-07-28 23:39:54 | DEBUG    | scraper.parser | Product 2 parsed: For OnePlus Nord N200 5G Case: Shockproof Non Slip Drop Prot
+2026-07-28 23:39:54 | DEBUG    | scraper.parser | Product 3 parsed: FNTCASE for OnePlus 15 Case, Fit for Magsafe, Screen Protect
+2026-07-28 23:39:54 | DEBUG    | scraper.parser | Product 4 parsed: OnePlus 15 Magnetic Case Sandstone, Textured Grip, N52 Magne
+2026-07-28 23:39:54 | DEBUG    | scraper.parser | Product 5 parsed: Oneplus Nord N200 5G Case: Military Grade 16ft Drop Tested, 
+2026-07-28 23:39:54 | DEBUG    | scraper.parser | Product 6 parsed: FNTCASE for Oneplus 15 Clear Case One Plus 15 Case Compatibl
+2026-07-28 23:39:54 | DEBUG    | scraper.parser | Product 7 parsed: Poetic Revolution Case for OnePlus 15 5G, | Slide Camera Cov
+2026-07-28 23:39:54 | DEBUG    | scraper.parser | Product 8 parsed: Poetic Guardian Case for OnePlus 15 5G, | Magsafe Compatible
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 9 parsed: Nillkin for OnePlus 15 MagSafe Case, MagSafe Compatible, Sho
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 10 parsed: MAKAVO Magnetic for OnePlus 12 Case [Compatible with MagSafe
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 11 parsed: Gritup Fit for OnePlus Nord N30 5G Case with Slide Camera Co
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 12 parsed: Poetic Guardian Case for OnePlus 15R 5G, 20FT Mil-Grade Drop
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 13 parsed: Poetic for OnePlus 15 Case, | Compatible with MagSafe | 360°
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 14 parsed: Poetic Revolution Case for OnePlus 13 5G, [Slide Camera Cove
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 15 parsed: FNTCASE for OnePlus 15 Case, Built-in Screen Protector, Kick
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 16 parsed: FNTCASE for OnePlus 13 Case: Non Slip One Plus 13 Matte TPU 
+2026-07-28 23:39:55 | DEBUG    | scraper.parser | Product 17 parsed: Super Thin for OnePlus 13R Case, Ultra Slim Skin-Friendly An
+2026-07-28 23:39:56 | DEBUG    | scraper.parser | Product 18 parsed: Poetic Guardian Case for OnePlus 13 5G, Built-in Screen Prot
+2026-07-28 23:39:56 | DEBUG    | scraper.parser | Product 19 parsed: Spigen Ultra Hybrid Designed for Oneplus 13 Case (2025) [Ant
+2026-07-28 23:39:56 | DEBUG    | scraper.parser | Product 20 parsed: TUDIA MergeGrip [Military Grade] for OnePlus 15 5G Case (202
+2026-07-28 23:39:56 | DEBUG    | scraper.parser | Product 21 parsed: case for OnePlus Buds 4 with Carabiner and Cleaning Pen, Sil
+2026-07-28 23:39:56 | DEBUG    | scraper.parser | Product 22 parsed: GiiYoon Silicone Case Compatible with OnePlus 15R, Full Body
+2026-07-28 23:39:56 | INFO     | scraper.search | Page 1: Extracted 22 products (total: 22)
+2026-07-28 23:39:56 | DEBUG    | utils.resume | Progress saved: keyword='oneplus cases', last_completed_page=1
+2026-07-28 23:39:56 | INFO     | scraper.search | ━━━ Scraping page 2 of 5 ━━━
+2026-07-28 23:39:56 | INFO     | scraper.search | Navigating to page 2: https://www.amazon.com/s?k=oneplus cases&page=2
+2026-07-28 23:40:00 | DEBUG    | scraper.search | Page 2 loaded successfully.
+2026-07-28 23:40:00 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:40:00 | DEBUG    | scraper.parser | Product 1 parsed: for OnePlus 12 Case with Slide Camera Cover, 360° Rotation R
+2026-07-28 23:40:00 | DEBUG    | scraper.parser | Product 2 parsed: Silverback for OnePlus 12 Case Clear with Ring Kickstand | P
+2026-07-28 23:40:00 | DEBUG    | scraper.parser | Product 3 parsed: for OnePlus Nord N10 5G Case with [2 Pack] Tempered Glass Sc
+2026-07-28 23:40:00 | DEBUG    | scraper.parser | Product 4 parsed: LeYi for OnePlus-15 Case MagSafe Fit Matte Translucent Shock
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 5 parsed: OtterBox OnePlus Nord N200 5G Commuter Series Lite Case - Bl
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 6 parsed: ENCASED Falcon Armor for OnePlus 10 Pro 5G Case (2022) Ultra
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 7 parsed: FNTCASE for OnePlus 15 Case: Non Slip One Plus 15 Matte TPU 
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 8 parsed: Ringke Onyx for OnePlus 15 Case [Compatible with MagSafe] Oi
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 9 parsed: ENCASED Falcon Armor Designed for OnePlus 9 Case with Screen
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 10 parsed: ATUMP for OnePlus Nord N200 5G Case with HD Screen Protector
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 11 parsed: GiiYoon Silicone Case Compatible with OnePlus 15R, Full Body
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 12 parsed: Poetic Revolution Case for OnePlus 15 5G, | Slide Camera Cov
+2026-07-28 23:40:01 | DEBUG    | scraper.parser | Product 13 parsed: Nillkin for OnePlus 15 Case | Slide Camera Cover | Full Came
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 14 parsed: Compatible with Oneplus 15 Case Slim Silicone Liquid Full Bo
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 15 parsed: Poetic Revolution Case Compatible with OnePlus 12 5G (2024),
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 16 parsed: Ringke for OnePlus 15 Case [Fusion-X Camo Black] | Enhanced 
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 17 parsed: FNTCASE for OnePlus 15R Case, Fit for Magsafe, Screen Protec
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 18 parsed: Spigen Liquid Air Designed for OnePlus 12 Case (2024) - Matt
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 19 parsed: FNTCASE for OnePlus 13 Case: Non Slip One Plus 13 Matte TPU 
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 20 parsed: Poetic Revolution Case Compatible with OnePlus 12R 5G (2024)
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 21 parsed: Poetic Guardian Case for OnePlus 15R 5G, 20FT Mil-Grade Drop
+2026-07-28 23:40:02 | DEBUG    | scraper.parser | Product 22 parsed: Silicone Case for OnePlus 15R, Mint Green | Soft Silicone Si
+2026-07-28 23:40:02 | INFO     | scraper.search | Page 2: Extracted 22 products (total: 44)
+2026-07-28 23:40:02 | DEBUG    | utils.resume | Progress saved: keyword='oneplus cases', last_completed_page=2
+2026-07-28 23:40:02 | INFO     | scraper.search | ━━━ Scraping page 3 of 5 ━━━
+2026-07-28 23:40:02 | INFO     | scraper.search | Navigating to page 3: https://www.amazon.com/s?k=oneplus cases&page=3
+2026-07-28 23:40:06 | DEBUG    | scraper.search | Page 3 loaded successfully.
+2026-07-28 23:40:06 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:40:06 | DEBUG    | scraper.parser | Product 1 parsed: for OnePlus 12 Case with Slide Camera Cover, 360° Rotation R
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 2 parsed: Silverback for OnePlus 12 Case Clear with Ring Kickstand | P
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 3 parsed: for OnePlus 8【Not fit 8T】 Case, for OnePlus 1+8 Case Dual La
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 4 parsed: Nillkin for OnePlus 15 MagSafe Case, MagSafe Compatible, Mat
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 5 parsed: Dionsibei Military Grade Drop Impact for Oneplus Nord N200 5
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 6 parsed: for OnePlus Nord N30 5G Phone Case with 3 Pack Tempered Glas
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 7 parsed: Poetic Revolution Case for OnePlus Nord N30 5G, [20FT Mil-Gr
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 8 parsed: case for OnePlus 15 Magnetic Mobile Phone Case,Translucent M
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 9 parsed: MAKAVO Magnetic for OnePlus 13R Case [Fit for MagSafe] Trans
+2026-07-28 23:40:07 | DEBUG    | scraper.parser | Product 10 parsed: for OnePlus Nord N20 5G Case with Slide Camera Cover and 2pc
+2026-07-28 23:40:08 | DEBUG    | scraper.parser | Product 11 parsed: GiiYoon Silicone Case Compatible with OnePlus 15R, Full Body
+2026-07-28 23:40:08 | DEBUG    | scraper.parser | Product 12 parsed: kwmobile Case Compatible with OnePlus 9 Pro Case - Soft Slim
+2026-07-28 23:40:08 | DEBUG    | scraper.parser | Product 13 parsed: MAKAVO Magnetic for OnePlus 13 Case [Compatible with MagSafe
+2026-07-28 23:40:08 | DEBUG    | scraper.parser | Product 14 parsed: Designed for OnePlus 15 Case, Flexible TPU [Brushed Texture]
+2026-07-28 23:40:09 | DEBUG    | scraper.parser | Product 15 parsed: Magnetic Leather Case for OnePlus Open with Rotating Kicksta
+2026-07-28 23:40:09 | DEBUG    | scraper.parser | Product 16 parsed: for Oneplus Open Case with 360° Magnetic Rotatable Ring Stan
+2026-07-28 23:40:09 | DEBUG    | scraper.parser | Product 17 parsed: Designed for OnePlus 15R Case,Flexible TPU [Brushed Texture]
+2026-07-28 23:40:09 | DEBUG    | scraper.parser | Product 18 parsed: TUDIA MergeGrip [Magsafe Compatible] for OnePlus 15 5G Case 
+2026-07-28 23:40:09 | DEBUG    | scraper.parser | Product 19 parsed: Poetic Guardian Case Compatible with OnePlus 12 5G (2024), B
+2026-07-28 23:40:09 | DEBUG    | scraper.parser | Product 20 parsed: Zeking for OnePlus Open Case, Crystal Clear Slim Fit Thin Li
+2026-07-28 23:40:09 | DEBUG    | scraper.parser | Product 21 parsed: Silicone Case for OnePlus 15, Deep Purple | Soft Silicone Si
+2026-07-28 23:40:10 | DEBUG    | scraper.parser | Product 22 parsed: for oneplus 15 Case 5G [Buffertech Military-Grade Drop Prote
+2026-07-28 23:40:10 | INFO     | scraper.search | Page 3: Extracted 22 products (total: 66)
+2026-07-28 23:40:10 | DEBUG    | utils.resume | Progress saved: keyword='oneplus cases', last_completed_page=3
+2026-07-28 23:40:10 | INFO     | scraper.search | ━━━ Scraping page 4 of 5 ━━━
+2026-07-28 23:40:10 | INFO     | scraper.search | Navigating to page 4: https://www.amazon.com/s?k=oneplus cases&page=4
+2026-07-28 23:40:13 | DEBUG    | scraper.search | Page 4 loaded successfully.
+2026-07-28 23:40:13 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:40:13 | DEBUG    | scraper.parser | Product 1 parsed: for OnePlus 12 Case with Slide Camera Cover, 360° Rotation R
+2026-07-28 23:40:14 | DEBUG    | scraper.parser | Product 2 parsed: Poetic Guardian Case for OnePlus 15R 5G, 20FT Mil-Grade Drop
+2026-07-28 23:40:14 | DEBUG    | scraper.parser | Product 3 parsed: FNTCASE for Oneplus 15 Clear Case One Plus 15 Case with Scre
+2026-07-28 23:40:14 | DEBUG    | scraper.parser | Product 4 parsed: Nillkin for OnePlus Open Case with Camera Cover, [Hinge Prot
+2026-07-28 23:40:14 | DEBUG    | scraper.parser | Product 5 parsed: DETUOSI Oneplus Nord N200 5G Phone Case, Built in Screen Pro
+2026-07-28 23:40:14 | DEBUG    | scraper.parser | Product 6 parsed: kwmobile Case Compatible with OnePlus Nord N200 5G Case - TP
+2026-07-28 23:40:14 | DEBUG    | scraper.parser | Product 7 parsed: for OnePlus 6T/OnePlus 7 Case with [2 Pack] Tempered Glass S
+2026-07-28 23:40:15 | DEBUG    | scraper.parser | Product 8 parsed: Spigen Liquid Air Designed for OnePlus 11 Case (2023) - Matt
+2026-07-28 23:40:15 | DEBUG    | scraper.parser | Product 9 parsed: Osophter for Oneplus Nord N10 Case Shock-Absorption Flexible
+2026-07-28 23:40:15 | DEBUG    | scraper.parser | Product 10 parsed: kwmobile Case Compatible with OnePlus 6T Case - TPU Silicone
+2026-07-28 23:40:15 | DEBUG    | scraper.parser | Product 11 parsed: Silicone Case for OnePlus 12, Purple | Soft Silicone Silky T
+2026-07-28 23:40:15 | DEBUG    | scraper.parser | Product 12 parsed: Silverback for OnePlus 12 Case Clear with Ring Kickstand | P
+2026-07-28 23:40:15 | DEBUG    | scraper.parser | Product 13 parsed: for Oneplus Open Case, Built-in Screen Protector, Full Hinge
+2026-07-28 23:40:16 | DEBUG    | scraper.parser | Product 14 parsed: TUDIA MergeGrip for OnePlus 13 Case 5G (2025) - [Military Gr
+2026-07-28 23:40:16 | DEBUG    | scraper.parser | Product 15 parsed: for Oneplus Open Case with 360° Magnetic Rotatable Ring Stan
+2026-07-28 23:40:16 | DEBUG    | scraper.parser | Product 16 parsed: TUDIA MergeGrip Phone Case for OnePlus 12 5G 2024 - Military
+2026-07-28 23:40:16 | DEBUG    | scraper.parser | Product 17 parsed: for OnePlus Nord N200 5G Case, Slim Flexible TPU for Girls W
+2026-07-28 23:40:16 | DEBUG    | scraper.parser | Product 18 parsed: Cresee Case for OnePlus Open, Thin Hard Matte Phone Case wit
+2026-07-28 23:40:16 | DEBUG    | scraper.parser | Product 19 parsed: TUDIA DualShield Grip Designed for OnePlus10T Case 5G, [Merg
+2026-07-28 23:40:16 | DEBUG    | scraper.parser | Product 20 parsed: Poetic Revolution Series Case for OnePlus Nord N10 5G, Full-
+2026-07-28 23:40:16 | DEBUG    | scraper.parser | Product 21 parsed: Poetic Revolution Case for OnePlus 15 5G, | Slide Camera Cov
+2026-07-28 23:40:17 | DEBUG    | scraper.parser | Product 22 parsed: GiiYoon Silicone Case Compatible with OnePlus 15R, Full Body
+2026-07-28 23:40:17 | INFO     | scraper.search | Page 4: Extracted 22 products (total: 88)
+2026-07-28 23:40:17 | DEBUG    | utils.resume | Progress saved: keyword='oneplus cases', last_completed_page=4
+2026-07-28 23:40:17 | INFO     | scraper.search | ━━━ Scraping page 5 of 5 ━━━
+2026-07-28 23:40:17 | INFO     | scraper.search | Navigating to page 5: https://www.amazon.com/s?k=oneplus cases&page=5
+2026-07-28 23:40:22 | DEBUG    | scraper.search | Page 5 loaded successfully.
+2026-07-28 23:40:22 | INFO     | scraper.parser | Found 22 product cards on the page.
+2026-07-28 23:40:22 | DEBUG    | scraper.parser | Product 1 parsed: Poetic Revolution Case for OnePlus 15 5G, | Slide Camera Cov
+2026-07-28 23:40:22 | DEBUG    | scraper.parser | Product 2 parsed: Poetic Guardian Case for OnePlus 15R 5G, 20FT Mil-Grade Drop
+2026-07-28 23:40:22 | DEBUG    | scraper.parser | Product 3 parsed: MAKAVO Magnetic for OnePlus 13 Case [Compatible with MagSafe
+2026-07-28 23:40:22 | DEBUG    | scraper.parser | Product 4 parsed: for Oneplus 9 5G Phone case,1+9 5G Case Shockproof, Scratch 
+2026-07-28 23:40:22 | DEBUG    | scraper.parser | Product 5 parsed: for OnePlus 15 Case,high qualit,PC Material,Scratch Resistan
+2026-07-28 23:40:22 | DEBUG    | scraper.parser | Product 6 parsed: for OnePlus Nord N20 5G Case with [2 Pack] Tempered Glass Sc
+2026-07-28 23:40:22 | DEBUG    | scraper.parser | Product 7 parsed: OnePlus 15 Magnetic Case Aramid Fiber, Ultra Slim 1.3mm Drop
+2026-07-28 23:40:23 | DEBUG    | scraper.parser | Product 8 parsed: Osophter Cellular Phone Case for Oneplus 8T 5G, Shock-Absorp
+2026-07-28 23:40:23 | DEBUG    | scraper.parser | Product 9 parsed: Nillkin for OnePlus Open Case with Metal Kickstand Camera Le
+2026-07-28 23:40:23 | DEBUG    | scraper.parser | Product 10 parsed: Poetic Revolution Case for OnePlus 10 Pro 5G, [20FT Mil-Grad
+2026-07-28 23:40:23 | DEBUG    | scraper.parser | Product 11 parsed: Silverback for OnePlus 12 Case Clear with Ring Kickstand | P
+2026-07-28 23:40:23 | DEBUG    | scraper.parser | Product 12 parsed: GiiYoon Silicone Case Compatible with OnePlus 15R, Full Body
+2026-07-28 23:40:23 | DEBUG    | scraper.parser | Product 13 parsed: MAKAVO Slim Fit for OnePlus Nord N300 5G Case with Screen Pr
+2026-07-28 23:40:23 | DEBUG    | scraper.parser | Product 14 parsed: Osophter for Oneplus 8 Case [Not Compatible with Oneplus 8T]
+2026-07-28 23:40:23 | DEBUG    | scraper.parser | Product 15 parsed: Compatible for OnePlus 11 5G Phone Case, 360° Rotatable Ring
+2026-07-28 23:40:24 | DEBUG    | scraper.parser | Product 16 parsed: Oneplus Nord N20 5G Case, Built in Screen Protector Full Bod
+2026-07-28 23:40:24 | DEBUG    | scraper.parser | Product 17 parsed: TUDIA DualShield Grip Designed for OnePlus 11 Case 5G (2023)
+2026-07-28 23:40:24 | DEBUG    | scraper.parser | Product 18 parsed: Poetic Guardian Case for OnePlus Nord N30 5G, [20FT Mil-Grad
+2026-07-28 23:40:24 | DEBUG    | scraper.parser | Product 19 parsed: OtterBox OnePlus Nord N300 5G Commuter Series Lite Case - Bl
+2026-07-28 23:40:24 | DEBUG    | scraper.parser | Product 20 parsed: MAKAVO for OnePlus Nord N30 5G Case with Glass Screen Protec
+2026-07-28 23:40:24 | DEBUG    | scraper.parser | Product 21 parsed: for OnePlus 12 Case with Slide Camera Cover, 360° Rotation R
+2026-07-28 23:40:24 | DEBUG    | scraper.parser | Product 22 parsed: Silicone Case for OnePlus 15, Green | Soft Silicone Silky To
+2026-07-28 23:40:24 | INFO     | scraper.search | Page 5: Extracted 22 products (total: 110)
+2026-07-28 23:40:24 | DEBUG    | utils.resume | Progress saved: keyword='oneplus cases', last_completed_page=5
+2026-07-28 23:40:24 | INFO     | scraper.search | Scraping complete. Total products extracted: 110
+2026-07-28 23:40:24 | INFO     | __main__ | Scraping finished: 110 products extracted.
+2026-07-28 23:40:24 | INFO     | filters.product_filter | No filters applied. All 110 products kept.
+2026-07-28 23:40:24 | INFO     | exporters.csv_exporter | CSV export complete: 110 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.csv'
+2026-07-28 23:40:24 | INFO     | exporters.json_exporter | JSON export complete: 110 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.json'
+2026-07-28 23:40:24 | INFO     | exporters.sqlite_exporter | SQLite export complete: 110 products saved to 'E:\Anas\internship\Week3\Amazon_Automation\output\results.db' (0 skipped — no ASIN)
+2026-07-28 23:40:24 | DEBUG    | utils.resume | Progress file cleared.
+2026-07-28 23:40:24 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:40:24 | INFO     | __main__ | SCRAPE SUMMARY
+2026-07-28 23:40:24 | INFO     | __main__ | ------------------------------------------------------------
+2026-07-28 23:40:24 | INFO     | __main__ | Keyword:          oneplus cases
+2026-07-28 23:40:24 | INFO     | __main__ | Pages scraped:    5
+2026-07-28 23:40:24 | INFO     | __main__ | Products found:   110
+2026-07-28 23:40:24 | INFO     | __main__ | After filtering:  110
+2026-07-28 23:40:24 | INFO     | __main__ | Time elapsed:     60.3 seconds
+2026-07-28 23:40:24 | INFO     | __main__ | CSV output:       E:\Anas\internship\Week3\Amazon_Automation\output\results.csv
+2026-07-28 23:40:24 | INFO     | __main__ | JSON output:      E:\Anas\internship\Week3\Amazon_Automation\output\results.json
+2026-07-28 23:40:24 | INFO     | __main__ | SQLite output:    E:\Anas\internship\Week3\Amazon_Automation\output\results.db
+2026-07-28 23:40:24 | INFO     | __main__ | ============================================================
+2026-07-28 23:40:24 | INFO     | __main__ | Scraping completed successfully!
+2026-07-28 23:40:24 | INFO     | __main__ | ============================================================
+2026-07-28 23:40:27 | INFO     | scraper.driver | Chrome WebDriver closed successfully.
